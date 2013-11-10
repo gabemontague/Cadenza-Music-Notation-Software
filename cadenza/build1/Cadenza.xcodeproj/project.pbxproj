@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		950A0C2B16C8B4A40004B86A /* PageConfig.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 950A0C2A16C8B4A40004B86A /* PageConfig.rtf */; };
+		95317D20170A76FB004F4EF0 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95317D1F170A76FB004F4EF0 /* Quartz.framework */; };
+		95317D22170A771B004F4EF0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95317D21170A771B004F4EF0 /* OpenGL.framework */; };
+		95317D24170A7739004F4EF0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95317D23170A7739004F4EF0 /* CoreFoundation.framework */; };
+		95317D26170A7757004F4EF0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95317D25170A7757004F4EF0 /* Cocoa.framework */; };
+		95317D28170A776B004F4EF0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95317D27170A776B004F4EF0 /* OpenAL.framework */; };
+		95317D2A170A7784004F4EF0 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95317D29170A7784004F4EF0 /* QTKit.framework */; };
+		95317D2C170A77A5004F4EF0 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95317D2B170A77A5004F4EF0 /* IOKit.framework */; };
+		95317D33170A783C004F4EF0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95317D25170A7757004F4EF0 /* Cocoa.framework */; };
+		95317D39170A783C004F4EF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95317D37170A783C004F4EF0 /* InfoPlist.strings */; };
+		95317D3B170A783C004F4EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95317D3A170A783C004F4EF0 /* main.m */; };
+		95317D3F170A783C004F4EF0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 95317D3D170A783C004F4EF0 /* Credits.rtf */; };
+		95317D42170A783C004F4EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95317D41170A783C004F4EF0 /* AppDelegate.m */; };
+		95317D45170A783C004F4EF0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95317D43170A783C004F4EF0 /* MainMenu.xib */; };
+		95317D4D170A783C004F4EF0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95317D4C170A783C004F4EF0 /* SenTestingKit.framework */; };
+		95317D4E170A783C004F4EF0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95317D25170A7757004F4EF0 /* Cocoa.framework */; };
+		95317D56170A783C004F4EF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95317D54170A783C004F4EF0 /* InfoPlist.strings */; };
+		95317D59170A783C004F4EF0 /* eagrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95317D58170A783C004F4EF0 /* eagrTests.m */; };
+		9543851416BF1D170082BABE /* line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9543851316BF1D170082BABE /* line.jpg */; };
+		958A9F2216EFC3C700AE2D45 /* noteheadSolid.png in Resources */ = {isa = PBXBuildFile; fileRef = 958A9F2116EFC3C700AE2D45 /* noteheadSolid.png */; };
+		95981B7116BDFC6C00609422 /* page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95981B7016BDFC6C00609422 /* page.jpg */; };
+		95ABF2F91719D43F00069247 /* fontDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ABF2F81719D43F00069247 /* fontDefault.png */; };
+		95B5C68416F5440C00518700 /* ProfessionalSpacingConfig.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 95B5C68316F5440C00518700 /* ProfessionalSpacingConfig.rtf */; };
+		95B5C75016F5502500518700 /* noteheadHalf.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B5C74F16F5502500518700 /* noteheadHalf.png */; };
+		95B5C77516F555DC00518700 /* noteheadWhole.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B5C77416F555DC00518700 /* noteheadWhole.png */; };
+		95B5C78A16F557BF00518700 /* noteheadDoubleWhole.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B5C78916F557BF00518700 /* noteheadDoubleWhole.png */; };
+		95BCC25F16F6C1F800B33279 /* tabbgchrome.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BCC25E16F6C1F800B33279 /* tabbgchrome.png */; };
+		95DE4D9F16F8B00E00338D5D /* drawLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DE4D9E16F8B00E00338D5D /* drawLine.png */; };
+		95DE4E3716F8BB0500338D5D /* drawLinePivot.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DE4E3616F8BB0500338D5D /* drawLinePivot.png */; };
+		95F2918A16C5B785000386C1 /* tabbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F2918916C5B785000386C1 /* tabbg.png */; };
+		95F291A716C5B934000386C1 /* tabbgdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F291A616C5B934000386C1 /* tabbgdark.png */; };
+		9B409BE013E2F23300A51D16 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9B409BDF13E2F23300A51D16 /* Icon.icns */; };
+		9B45E67B13EF44580085975A /* cadenza.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B45E67913EF44580085975A /* cadenza.cpp */; };
+		9B8B6E4F1360BFC200BEF23D /* Core.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B6E4E1360BFC200BEF23D /* Core.mm */; };
+		D8A7B0FD134F6EBF0075993A /* libAGKMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A7B0FC134F6EBF0075993A /* libAGKMac.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95317D4F170A783C004F4EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95317D31170A783C004F4EF0;
+			remoteInfo = eagr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* Cadenza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cadenza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		950A0C2A16C8B4A40004B86A /* PageConfig.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = PageConfig.rtf; sourceTree = "<group>"; };
+		95317D1F170A76FB004F4EF0 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		95317D21170A771B004F4EF0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		95317D23170A7739004F4EF0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		95317D25170A7757004F4EF0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		95317D27170A776B004F4EF0 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = /System/Library/Frameworks/OpenAL.framework; sourceTree = "<absolute>"; };
+		95317D29170A7784004F4EF0 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		95317D2B170A77A5004F4EF0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		95317D32170A783C004F4EF0 /* eagr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eagr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95317D36170A783C004F4EF0 /* eagr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eagr-Info.plist"; sourceTree = "<group>"; };
+		95317D38170A783C004F4EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95317D3A170A783C004F4EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95317D3C170A783C004F4EF0 /* eagr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eagr-Prefix.pch"; sourceTree = "<group>"; };
+		95317D3E170A783C004F4EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		95317D40170A783C004F4EF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95317D41170A783C004F4EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95317D44170A783C004F4EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		95317D4B170A783C004F4EF0 /* eagrTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eagrTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95317D4C170A783C004F4EF0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		95317D53170A783C004F4EF0 /* eagrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eagrTests-Info.plist"; sourceTree = "<group>"; };
+		95317D55170A783C004F4EF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95317D57170A783C004F4EF0 /* eagrTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eagrTests.h; sourceTree = "<group>"; };
+		95317D58170A783C004F4EF0 /* eagrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eagrTests.m; sourceTree = "<group>"; };
+		9543851316BF1D170082BABE /* line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = line.jpg; sourceTree = "<group>"; };
+		958A9F2116EFC3C700AE2D45 /* noteheadSolid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noteheadSolid.png; sourceTree = "<group>"; };
+		95981A8B16BB4C0B00609422 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		95981B7016BDFC6C00609422 /* page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = page.jpg; sourceTree = "<group>"; };
+		95ABF2F81719D43F00069247 /* fontDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontDefault.png; sourceTree = "<group>"; };
+		95B5C68316F5440C00518700 /* ProfessionalSpacingConfig.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ProfessionalSpacingConfig.rtf; sourceTree = "<group>"; };
+		95B5C74F16F5502500518700 /* noteheadHalf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noteheadHalf.png; sourceTree = "<group>"; };
+		95B5C77416F555DC00518700 /* noteheadWhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noteheadWhole.png; sourceTree = "<group>"; };
+		95B5C78916F557BF00518700 /* noteheadDoubleWhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noteheadDoubleWhole.png; sourceTree = "<group>"; };
+		95BCC25E16F6C1F800B33279 /* tabbgchrome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbgchrome.png; sourceTree = "<group>"; };
+		95DE4D9E16F8B00E00338D5D /* drawLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawLine.png; sourceTree = "<group>"; };
+		95DE4E3616F8BB0500338D5D /* drawLinePivot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawLinePivot.png; sourceTree = "<group>"; };
+		95F2918916C5B785000386C1 /* tabbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbg.png; sourceTree = "<group>"; };
+		95F291A616C5B934000386C1 /* tabbgdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbgdark.png; sourceTree = "<group>"; };
+		9B409BDF13E2F23300A51D16 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		9B45E67613EF44440085975A /* CoreForApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreForApp.h; sourceTree = "<group>"; };
+		9B45E67713EF444E0085975A /* template-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "template-Info.plist"; sourceTree = "<group>"; };
+		9B45E67913EF44580085975A /* cadenza.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = cadenza.cpp; sourceTree = "<group>"; };
+		9B45E67A13EF44580085975A /* cadenza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cadenza.h; sourceTree = "<group>"; };
+		9B8B6E4E1360BFC200BEF23D /* Core.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Core.mm; sourceTree = "<group>"; };
+		D8A5D63C131FFD05000446C9 /* agk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = agk.h; path = ../../common/Include/agk.h; sourceTree = SOURCE_ROOT; };
+		D8A5D63E131FFD05000446C9 /* cFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cFile.h; path = ../../common/Include/cFile.h; sourceTree = SOURCE_ROOT; };
+		D8A5D63F131FFD05000446C9 /* cForce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cForce.h; path = ../../common/Include/cForce.h; sourceTree = SOURCE_ROOT; };
+		D8A5D640131FFD05000446C9 /* cHashedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cHashedList.h; path = ../../common/Include/cHashedList.h; sourceTree = SOURCE_ROOT; };
+		D8A5D641131FFD05000446C9 /* cImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cImage.h; path = ../../common/Include/cImage.h; sourceTree = SOURCE_ROOT; };
+		D8A5D642131FFD05000446C9 /* cNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cNode.h; path = ../../common/Include/cNode.h; sourceTree = SOURCE_ROOT; };
+		D8A5D643131FFD05000446C9 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = ../../common/Include/Common.h; sourceTree = SOURCE_ROOT; };
+		D8A5D644131FFD05000446C9 /* cSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cSound.h; path = ../../common/Include/cSound.h; sourceTree = SOURCE_ROOT; };
+		D8A5D645131FFD05000446C9 /* cSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cSprite.h; path = ../../common/Include/cSprite.h; sourceTree = SOURCE_ROOT; };
+		D8A5D646131FFD05000446C9 /* cSpriteMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cSpriteMgr.h; path = ../../common/Include/cSpriteMgr.h; sourceTree = SOURCE_ROOT; };
+		D8A5D647131FFD05000446C9 /* cText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cText.h; path = ../../common/Include/cText.h; sourceTree = SOURCE_ROOT; };
+		D8A5D648131FFD05000446C9 /* cTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cTouch.h; path = ../../common/Include/cTouch.h; sourceTree = SOURCE_ROOT; };
+		D8A5D649131FFD05000446C9 /* DebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugDraw.h; path = ../../common/Include/DebugDraw.h; sourceTree = SOURCE_ROOT; };
+		D8A5D64A131FFD05000446C9 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Globals.h; path = ../../common/Include/Globals.h; sourceTree = SOURCE_ROOT; };
+		D8A5D64C131FFD05000446C9 /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Physics.h; path = ../../common/Include/Physics.h; sourceTree = SOURCE_ROOT; };
+		D8A5D64D131FFD05000446C9 /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Thread.h; path = ../../common/Include/Thread.h; sourceTree = SOURCE_ROOT; };
+		D8A5D64E131FFD05000446C9 /* uString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uString.h; path = ../../common/Include/uString.h; sourceTree = SOURCE_ROOT; };
+		D8A5D64F131FFD05000446C9 /* Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wrapper.h; path = ../../common/Include/Wrapper.h; sourceTree = SOURCE_ROOT; };
+		D8A7B0FC134F6EBF0075993A /* libAGKMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAGKMac.a; path = ../../platform/mac/Lib/Debug/libAGKMac.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95317D2C170A77A5004F4EF0 /* IOKit.framework in Frameworks */,
+				95317D2A170A7784004F4EF0 /* QTKit.framework in Frameworks */,
+				95317D28170A776B004F4EF0 /* OpenAL.framework in Frameworks */,
+				95317D26170A7757004F4EF0 /* Cocoa.framework in Frameworks */,
+				95317D24170A7739004F4EF0 /* CoreFoundation.framework in Frameworks */,
+				95317D22170A771B004F4EF0 /* OpenGL.framework in Frameworks */,
+				95317D20170A76FB004F4EF0 /* Quartz.framework in Frameworks */,
+				D8A7B0FD134F6EBF0075993A /* libAGKMac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95317D2F170A783C004F4EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95317D33170A783C004F4EF0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95317D47170A783C004F4EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95317D4D170A783C004F4EF0 /* SenTestingKit.framework in Frameworks */,
+				95317D4E170A783C004F4EF0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95981A8B16BB4C0B00609422 /* global.h */,
+				9B45E67913EF44580085975A /* cadenza.cpp */,
+				9B45E67A13EF44580085975A /* cadenza.h */,
+				9B45E67613EF44440085975A /* CoreForApp.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Cadenza.app */,
+				95317D32170A783C004F4EF0 /* eagr.app */,
+				95317D4B170A783C004F4EF0 /* eagrTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MacApp */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				95317D34170A783C004F4EF0 /* eagr */,
+				95317D51170A783C004F4EF0 /* eagrTests */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MacApp;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B6E4E1360BFC200BEF23D /* Core.mm */,
+				D8A5D63A131FFCF1000446C9 /* Includes */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95F291A616C5B934000386C1 /* tabbgdark.png */,
+				95F2918916C5B785000386C1 /* tabbg.png */,
+				95BCC25E16F6C1F800B33279 /* tabbgchrome.png */,
+				9543851316BF1D170082BABE /* line.jpg */,
+				95DE4D9E16F8B00E00338D5D /* drawLine.png */,
+				95DE4E3616F8BB0500338D5D /* drawLinePivot.png */,
+				95981B7016BDFC6C00609422 /* page.jpg */,
+				95ABF2F81719D43F00069247 /* fontDefault.png */,
+				958A9F2116EFC3C700AE2D45 /* noteheadSolid.png */,
+				95B5C74F16F5502500518700 /* noteheadHalf.png */,
+				95B5C77416F555DC00518700 /* noteheadWhole.png */,
+				95B5C78916F557BF00518700 /* noteheadDoubleWhole.png */,
+				9B45E67713EF444E0085975A /* template-Info.plist */,
+				9B409BDF13E2F23300A51D16 /* Icon.icns */,
+				95B5C68316F5440C00518700 /* ProfessionalSpacingConfig.rtf */,
+				950A0C2A16C8B4A40004B86A /* PageConfig.rtf */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95317D2B170A77A5004F4EF0 /* IOKit.framework */,
+				95317D29170A7784004F4EF0 /* QTKit.framework */,
+				95317D27170A776B004F4EF0 /* OpenAL.framework */,
+				95317D25170A7757004F4EF0 /* Cocoa.framework */,
+				95317D23170A7739004F4EF0 /* CoreFoundation.framework */,
+				95317D21170A771B004F4EF0 /* OpenGL.framework */,
+				95317D1F170A76FB004F4EF0 /* Quartz.framework */,
+				D8A7B0FC134F6EBF0075993A /* libAGKMac.a */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				95317D4C170A783C004F4EF0 /* SenTestingKit.framework */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95317D34170A783C004F4EF0 /* eagr */ = {
+			isa = PBXGroup;
+			children = (
+				95317D40170A783C004F4EF0 /* AppDelegate.h */,
+				95317D41170A783C004F4EF0 /* AppDelegate.m */,
+				95317D43170A783C004F4EF0 /* MainMenu.xib */,
+				95317D35170A783C004F4EF0 /* Supporting Files */,
+			);
+			path = eagr;
+			sourceTree = "<group>";
+		};
+		95317D35170A783C004F4EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95317D36170A783C004F4EF0 /* eagr-Info.plist */,
+				95317D37170A783C004F4EF0 /* InfoPlist.strings */,
+				95317D3A170A783C004F4EF0 /* main.m */,
+				95317D3C170A783C004F4EF0 /* eagr-Prefix.pch */,
+				95317D3D170A783C004F4EF0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95317D51170A783C004F4EF0 /* eagrTests */ = {
+			isa = PBXGroup;
+			children = (
+				95317D57170A783C004F4EF0 /* eagrTests.h */,
+				95317D58170A783C004F4EF0 /* eagrTests.m */,
+				95317D52170A783C004F4EF0 /* Supporting Files */,
+			);
+			path = eagrTests;
+			sourceTree = "<group>";
+		};
+		95317D52170A783C004F4EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95317D53170A783C004F4EF0 /* eagrTests-Info.plist */,
+				95317D54170A783C004F4EF0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8A5D63A131FFCF1000446C9 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				D8A5D63C131FFD05000446C9 /* agk.h */,
+				D8A5D63E131FFD05000446C9 /* cFile.h */,
+				D8A5D63F131FFD05000446C9 /* cForce.h */,
+				D8A5D640131FFD05000446C9 /* cHashedList.h */,
+				D8A5D641131FFD05000446C9 /* cImage.h */,
+				D8A5D642131FFD05000446C9 /* cNode.h */,
+				D8A5D643131FFD05000446C9 /* Common.h */,
+				D8A5D644131FFD05000446C9 /* cSound.h */,
+				D8A5D645131FFD05000446C9 /* cSprite.h */,
+				D8A5D646131FFD05000446C9 /* cSpriteMgr.h */,
+				D8A5D647131FFD05000446C9 /* cText.h */,
+				D8A5D648131FFD05000446C9 /* cTouch.h */,
+				D8A5D649131FFD05000446C9 /* DebugDraw.h */,
+				D8A5D64A131FFD05000446C9 /* Globals.h */,
+				D8A5D64C131FFD05000446C9 /* Physics.h */,
+				D8A5D64D131FFD05000446C9 /* Thread.h */,
+				D8A5D64E131FFD05000446C9 /* uString.h */,
+				D8A5D64F131FFD05000446C9 /* Wrapper.h */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Cadenza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Cadenza" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				8D11072C0486CEB800E47090 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cadenza;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MacApp;
+			productReference = 8D1107320486CEB800E47090 /* Cadenza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95317D31170A783C004F4EF0 /* eagr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95317D5A170A783C004F4EF0 /* Build configuration list for PBXNativeTarget "eagr" */;
+			buildPhases = (
+				95317D2E170A783C004F4EF0 /* Sources */,
+				95317D2F170A783C004F4EF0 /* Frameworks */,
+				95317D30170A783C004F4EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eagr;
+			productName = eagr;
+			productReference = 95317D32170A783C004F4EF0 /* eagr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95317D4A170A783C004F4EF0 /* eagrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95317D5D170A783C004F4EF0 /* Build configuration list for PBXNativeTarget "eagrTests" */;
+			buildPhases = (
+				95317D46170A783C004F4EF0 /* Sources */,
+				95317D47170A783C004F4EF0 /* Frameworks */,
+				95317D48170A783C004F4EF0 /* Resources */,
+				95317D49170A783C004F4EF0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95317D50170A783C004F4EF0 /* PBXTargetDependency */,
+			);
+			name = eagrTests;
+			productName = eagrTests;
+			productReference = 95317D4B170A783C004F4EF0 /* eagrTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cadenza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MacApp */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Cadenza */,
+				95317D31170A783C004F4EF0 /* eagr */,
+				95317D4A170A783C004F4EF0 /* eagrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				9B409BE013E2F23300A51D16 /* Icon.icns in Resources */,
+				95981B7116BDFC6C00609422 /* page.jpg in Resources */,
+				9543851416BF1D170082BABE /* line.jpg in Resources */,
+				95F2918A16C5B785000386C1 /* tabbg.png in Resources */,
+				95F291A716C5B934000386C1 /* tabbgdark.png in Resources */,
+				950A0C2B16C8B4A40004B86A /* PageConfig.rtf in Resources */,
+				958A9F2216EFC3C700AE2D45 /* noteheadSolid.png in Resources */,
+				95B5C68416F5440C00518700 /* ProfessionalSpacingConfig.rtf in Resources */,
+				95B5C75016F5502500518700 /* noteheadHalf.png in Resources */,
+				95B5C77516F555DC00518700 /* noteheadWhole.png in Resources */,
+				95B5C78A16F557BF00518700 /* noteheadDoubleWhole.png in Resources */,
+				95BCC25F16F6C1F800B33279 /* tabbgchrome.png in Resources */,
+				95DE4D9F16F8B00E00338D5D /* drawLine.png in Resources */,
+				95DE4E3716F8BB0500338D5D /* drawLinePivot.png in Resources */,
+				95ABF2F91719D43F00069247 /* fontDefault.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95317D30170A783C004F4EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95317D39170A783C004F4EF0 /* InfoPlist.strings in Resources */,
+				95317D3F170A783C004F4EF0 /* Credits.rtf in Resources */,
+				95317D45170A783C004F4EF0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95317D48170A783C004F4EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95317D56170A783C004F4EF0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95317D49170A783C004F4EF0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8B6E4F1360BFC200BEF23D /* Core.mm in Sources */,
+				9B45E67B13EF44580085975A /* cadenza.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95317D2E170A783C004F4EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95317D3B170A783C004F4EF0 /* main.m in Sources */,
+				95317D42170A783C004F4EF0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95317D46170A783C004F4EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95317D59170A783C004F4EF0 /* eagrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95317D50170A783C004F4EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95317D31170A783C004F4EF0 /* eagr */;
+			targetProxy = 95317D4F170A783C004F4EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95317D37170A783C004F4EF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95317D38170A783C004F4EF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95317D3D170A783C004F4EF0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95317D3E170A783C004F4EF0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		95317D43170A783C004F4EF0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95317D44170A783C004F4EF0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		95317D54170A783C004F4EF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95317D55170A783C004F4EF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95317D5B170A783C004F4EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eagr/eagr-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "eagr/eagr-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95317D5C170A783C004F4EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eagr/eagr-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "eagr/eagr-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		95317D5E170A783C004F4EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eagr.app/Contents/MacOS/eagr";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eagr/eagr-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "eagrTests/eagrTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		95317D5F170A783C004F4EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eagr.app/Contents/MacOS/eagr";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eagr/eagr-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "eagrTests/eagrTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../platform/mac\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = IDE_MAC;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "template-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../platform/mac/Lib/Debug\"",
+					"\"$(SRCROOT)/../../platform/mac/DDHidLib\"",
+					"\"$(SRCROOT)/../../platform/mac/GLFW\"",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = Cadenza;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../platform/mac\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = IDE_MAC;
+				INFOPLIST_FILE = "template-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../platform/mac/Lib/Release\"",
+					"\"$(SRCROOT)/../../platform/mac/DDHidLib\"",
+					"\"$(SRCROOT)/../../platform/mac/GLFW\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = Template;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = IDE_MAC;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95317D5A170A783C004F4EF0 /* Build configuration list for PBXNativeTarget "eagr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95317D5B170A783C004F4EF0 /* Debug */,
+				95317D5C170A783C004F4EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95317D5D170A783C004F4EF0 /* Build configuration list for PBXNativeTarget "eagrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95317D5E170A783C004F4EF0 /* Debug */,
+				95317D5F170A783C004F4EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Cadenza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cadenza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

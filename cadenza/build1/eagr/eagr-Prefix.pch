@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'eagr' target in the 'eagr' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

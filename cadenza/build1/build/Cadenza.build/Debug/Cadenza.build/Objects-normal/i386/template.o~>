@@ -1,0 +1,385 @@
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:5:21: error: cadenza.h: No such file or directory
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:7: error: 'AGK' is not a namespace-name
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:7: error: expected namespace-name before ';' token
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:8: error: 'app' does not name a type
+In file included from /Applications/AGK/IDE/templates/Cadenza/template.cpp:9:
+/Applications/AGK/IDE/templates/Cadenza/global.h:441: error: variable or field 'Error' declared void
+/Applications/AGK/IDE/templates/Cadenza/global.h:441: error: 'NSString' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/global.h:441: error: 'string' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void LoadImagesSprites()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:15: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:19: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:20: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:21: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:23: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:24: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:25: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:27: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:28: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:29: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:31: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:32: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:33: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:35: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:36: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:37: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:39: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:40: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:41: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:43: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:44: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:45: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:47: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:48: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:49: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:51: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:52: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:53: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:56: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:57: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:58: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: At global scope:
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:60: error: variable or field 'Error' declared void
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:60: error: 'NSString' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:60: error: 'string' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void UpdatePlayHead(double)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:94: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:95: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:96: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'float Distance(float, float, float, float)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:108: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void NewNote(int, int, int, int, noteLetterEnum, char, noteAccidentalEnum)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:147: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:150: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:153: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:156: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:159: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:161: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:162: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:163: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'int CalculateNotePitchLetter(clefEnum, float, float, noteHeadTypeEnum)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:270: error: 'round' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void CorrectNotePosition(int, int, int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:279: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:280: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:281: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:282: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:290: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:292: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void DeleteNote(int, int, int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:299: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:300: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:301: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:302: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:312: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:324: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void NewBarLine(int, int, float, double, bool, barLineModeEnum)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:354: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:357: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:359: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:362: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:365: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:366: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:367: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:368: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void NewBarLineSplitStaffSystem(int, int, float)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:377: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:409: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void NewBarLineSplitMeasure(int, int, float, double)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:460: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:486: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void MoveBarLine(int, int, int, float)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:532: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:533: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:534: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:542: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:550: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void CorrectBarLinePosition(int, int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:557: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:558: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:559: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:566: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:574: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void DeleteBarLine(int, int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:581: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:582: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:583: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:602: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:615: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void NewStave(int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:650: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:651: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:652: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:653: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:654: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void MoveStave(int, int, int, float)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:664: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:665: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:666: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:680: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:681: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:684: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void DeleteStave(int, int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:691: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:692: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:693: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:705: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:720: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void NewStaffSystem(int, float, float)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:754: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:755: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:756: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:757: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void MoveStaffSystem(int, int, float, float)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:771: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:772: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:793: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:794: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:796: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void ShiftStaffSystemTime(int, int, float)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:803: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:804: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:819: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void PushStaffSystemToNext(int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:826: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:827: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void PushStaffSystemToPrevious(int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:871: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:872: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:905: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void PushStaffSystemBackToPage(int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:913: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:914: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:947: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'int ArrangeStaffSystemsOnPage(int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:956: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:957: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void ArrangeStaffSystems(int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:991: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:992: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void UpdateStaffSystemHeight(int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1082: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1083: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1095: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1099: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1101: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void DeleteStaffSystem(int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1108: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1109: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1137: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1152: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'int NewPageText(int, float, float, char*)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1166: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1173: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1174: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1175: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1176: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1177: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void DeletePageText(int, int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1184: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1185: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1192: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1207: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void NewPage()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1228: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1229: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1230: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1239: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1240: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1242: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1245: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1261: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1267: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1268: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void MovePage(int, float, float)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1281: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1290: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1300: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1303: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void HidePage(int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1330: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1336: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1340: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1348: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1353: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1357: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1362: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1365: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void ShowPage(int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1370: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1376: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1380: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1388: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1393: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1397: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1401: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1404: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void DeletePage()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1427: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1435: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void NewTab(typeEnum)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1467: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1468: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1469: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1478: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1479: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1480: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1483: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1484: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1485: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1485: error: 'App' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1486: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1487: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1488: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1489: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1490: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1491: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1498: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1499: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1500: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1501: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1502: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1503: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void ArrangeTabBar()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1511: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1512: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1513: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1514: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void HideTabContent(int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1534: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1537: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1538: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1539: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1548: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1549: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1550: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void ShowTabContent(int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1568: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1569: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1570: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1572: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1575: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1576: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1577: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1578: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1579: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void DeleteTab(int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1625: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1631: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void ClearGestures()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1740: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1745: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'int ConvertPointToNearestAll(float, float)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1797: error: 'abs' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1808: error: 'abs' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1825: error: 'abs' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'int ConvertGlobalSSToLocal(int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1857: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'int ConvertGlobalBarLineToLocal(int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1882: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'int ConvertGlobalMeasureToLocal(int)':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:1915: error: 'Error' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void ViewControl()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2064: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2066: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2067: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2068: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2069: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2071: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2073: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2073: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2074: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2074: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2076: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2079: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2082: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2082: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2082: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2082: error: 'App' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2082: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2082: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2084: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2085: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2085: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2087: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2090: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2090: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2090: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2090: error: 'App' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2090: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2090: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2092: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2093: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2093: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2095: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2098: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2099: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2099: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2101: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2104: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2104: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2106: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2110: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2111: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2111: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void ViewControlLimitView()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2117: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2118: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2128: error: 'App' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2151: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void TabControl()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2155: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2157: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2164: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2166: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2172: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2174: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2181: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2183: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2186: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2187: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2189: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2192: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void DrawOnPage()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2203: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2203: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2204: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2204: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2206: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2208: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2210: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2241: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2244: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2245: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2246: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2247: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2248: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2253: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2254: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2255: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2256: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2257: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2268: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: At global scope:
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2285: error: 'app' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void Begin()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2288: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2288: error: 'm_DeviceWidth' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2288: error: 'm_DeviceHeight' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2289: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2290: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2291: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2292: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2297: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2298: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2299: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2299: error: 'App' was not declared in this scope
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2300: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2301: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: At global scope:
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2306: error: 'app' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: In function 'void Loop()':
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2324: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2325: error: 'agk' has not been declared
+/Applications/AGK/IDE/templates/Cadenza/template.cpp: At global scope:
+/Applications/AGK/IDE/templates/Cadenza/template.cpp:2327: error: 'app' has not been declared

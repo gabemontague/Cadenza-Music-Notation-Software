@@ -1,0 +1,987 @@
+Ttemplate
+v7
+r0
+t382235752.952684
+cCheck dependencies
+cProcessInfoPlistFile /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Info.plist template-Info.plist
+cCopyStringsFile /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/Template.app/Contents/Resources/Icon.icns Icon.icns
+cCopyPlistFile /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/template-Info.plist template-Info.plist
+cCpResource build/Debug/Template.app/Contents/Resources/page.jpg page.jpg
+cCpResource build/Debug/Template.app/Contents/Resources/line.jpg line.jpg
+cCpResource build/Debug/Template.app/Contents/Resources/tabbg.png tabbg.png
+cCpResource build/Debug/Template.app/Contents/Resources/tabbgdark.png tabbgdark.png
+cCompileC build/DataStructures.build/Debug/template.build/Objects-normal/i386/Core.o /Applications/AGK/IDE/templates/DataStructures/Core.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/DataStructures.build/Debug/template.build/Objects-normal/i386/template.o /Applications/AGK/IDE/templates/DataStructures/template.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cLd /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/MacOS/Template normal i386
+cTouch /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app
+
+N/Applications/AGK/IDE/common/Include/Common.h
+c000000004F3060D20000000000001EE9
+t1328570578
+s7913
+i<windows.h>
+i<stdio.h>
+i<gl\gl.h>
+i<gl\glu.h>
+i"..\..\platform\windows\Source\glext.h"
+i<WinSock.h>
+i<math.h>
+i<cassert>
+i<sys/types.h>
+i<sys/stat.h>
+i<wininet.h>
+i<time.h>
+i<FBase.h>
+i<FMedia.h>
+i<FApp.h>
+i<FBase.h>
+i<FGraphics.h>
+i<FSystem.h>
+i<FGraphicsOpengl.h>
+i<FUi.h>
+i<FUix.h>
+i<FIoDirectory.h>
+i<FNet.h>
+i<FBaseRtThreadThread.h>
+i<FIoFile.h>
+i<FTextUtf8Encoding.h>
+i<FUiCtrlKeypad.h>
+i<stdio.h>
+i<math.h>
+i<stdarg.h>
+i<FUiCtrlPopup.h>
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGLDrawable.h>
+i<AudioToolbox/AudioToolbox.h>
+i<AVFoundation/AVFoundation.h>
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i"string.h"
+i<math.h>
+i<netinet/in.h>
+i<netinet/tcp.h>
+i<unistd.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<arpa/inet.h>
+i<sys/ioctl.h>
+i<sys/stat.h>
+i<Cocoa/Cocoa.h>
+i<stdio.h>
+i<stdlib.h>
+i<stdarg.h>
+i<string.h>
+i<math.h>
+i"../../platform/mac/GLFW/glfw.h"
+i<sys/time.h>
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<mach/mach_time.h>
+i<mach-o/dyld.h>
+i<netinet/in.h>
+i<netinet/tcp.h>
+i<sys/param.h>
+i<unistd.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<arpa/inet.h>
+i<sys/ioctl.h>
+i<sys/stat.h>
+i<stdio.h>
+i<stdlib.h>
+i<stdarg.h>
+i<string.h>
+i<math.h>
+i<cassert>
+i<QtGui>
+i<QtOpenGL>
+i<QGLWidget>
+i<QtNetwork>
+i<stdio.h>
+i<string.h>
+i<jni.h>
+i<stdlib.h>
+i<math.h>
+i<netinet/in.h>
+i<netinet/tcp.h>
+i<unistd.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<arpa/inet.h>
+i<sys/ioctl.h>
+i<sys/stat.h>
+i<fcntl.h>
+i<unistd.h>
+i<pthread.h>
+i<EGL/egl.h>
+i<GLES/gl.h>
+i<EGL/egl.h>
+i<screen/screen.h>
+i<sys/platform.h>
+i<GLES/gl.h>
+i<GLES/glext.h>
+i<ctype.h>
+i<unistd.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<sys/keycodes.h>
+i<assert.h>
+i<bps/accelerometer.h>
+i<bps/navigator.h>
+i<bps/screen.h>
+i<bps/bps.h>
+i<bps/event.h>
+i<bps/orientation.h>
+i<bps/virtualkeyboard.h>
+i<math.h>
+i<time.h>
+i<screen/screen.h>
+i<netinet/in.h>
+i<netinet/tcp.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<arpa/inet.h>
+i<sys/ioctl.h>
+i<sys/stat.h>
+i<fcntl.h>
+i<pthread.h>
+i<stdarg.h>
+i<AL/al.h>
+i<AL/alc.h>
+i<bps/mmrenderer.h>
+
+N/Applications/AGK/IDE/common/Include/Globals.h
+c000000004E3CE48C000000000000019C
+t1312613516
+s412
+
+N/Applications/AGK/IDE/common/Include/Joystick.h
+c000000004E3CE48C0000000000000F75
+t1312613516
+s3957
+i"Common.h"
+
+N/Applications/AGK/IDE/common/Include/Mouse.h
+c000000004E69D7B00000000000000B66
+t1315559344
+s2918
+i"Common.h"
+i"Joystick.h"
+
+N/Applications/AGK/IDE/common/Include/Network.h
+c000000004E3CE48C0000000000001E90
+t1312613516
+s7824
+i"Common.h"
+i"uString.h"
+i"Thread.h"
+i"NetworkCommon.h"
+
+N/Applications/AGK/IDE/common/Include/NetworkCommon.h
+c000000004F0B333C00000000000002B8
+t1326134076
+s696
+i"../../platform/windows/Source/WindowsNetwork.h"
+i"../../platform/samsung/Source/SamsungNetwork.h"
+i"../../platform/apple/Source/AppleNetwork.h"
+i"../../platform/mac/Source/MacNetwork.h"
+i"../../platform/meego/Source/MeeGoNetwork.h"
+i"../../platform/android/Source/AndroidNetwork.h"
+i"../../platform/blackberry/Source/BlackberryNetwork.h"
+
+N/Applications/AGK/IDE/common/Include/Particles.h
+c000000004F8C972800000000000012E7
+t1334613800
+s4839
+i"Common.h"
+
+N/Applications/AGK/IDE/common/Include/Physics.h
+c000000004E3CE48C00000000000002AC
+t1312613516
+s684
+
+N/Applications/AGK/IDE/common/Include/Thread.h
+c000000004FA45E540000000000000A4D
+t1336172116
+s2637
+i"Common.h"
+
+N/Applications/AGK/IDE/common/Include/Wrapper.h
+c000000004FC67E90000000000000FFCC
+t1338408592
+s65484
+i"Common.h"
+i"AGK.h"
+
+N/Applications/AGK/IDE/common/Include/ZipFile.h
+c000000004F689EA40000000000000183
+t1332256420
+s387
+i"Common.h"
+
+N/Applications/AGK/IDE/common/Include/agk.h
+c000000004F689EA400000000000002B3
+t1332256420
+s691
+i"Common.h"
+i"agkKeys.h"
+i"Globals.h"
+i"cNode.h"
+i"cHashedList.h"
+i"uString.h"
+i"cImage.h"
+i"cSprite.h"
+i"cSpriteMgr.h"
+i"cTouch.h"
+i"cEvent.h"
+i"cSound.h"
+i"cText.h"
+i"cSpriteMgr.h"
+i"Physics.h"
+i"cForce.h"
+i"Thread.h"
+i"Network.h"
+i"NetworkCommon.h"
+i"cFile.h"
+i"Particles.h"
+i"Joystick.h"
+i"Mouse.h"
+i"cTextEntry.h"
+i"ZipFile.h"
+i"Wrapper.h"
+
+N/Applications/AGK/IDE/common/Include/agkKeys.h
+c000000004F528D0800000000000006B0
+t1330810120
+s1712
+
+N/Applications/AGK/IDE/common/Include/cEvent.h
+c000000004E3CE48C0000000000000395
+t1312613516
+s917
+i"Common.h"
+
+N/Applications/AGK/IDE/common/Include/cFile.h
+c000000004E3CE48C00000000000004DC
+t1312613516
+s1244
+i"Common.h"
+i"uString.h"
+
+N/Applications/AGK/IDE/common/Include/cForce.h
+c000000004E3CE48C00000000000001D4
+t1312613516
+s468
+i"Common.h"
+
+N/Applications/AGK/IDE/common/Include/cHashedList.h
+c000000004F0CE10400000000000022A1
+t1326244100
+s8865
+i"Common.h"
+
+N/Applications/AGK/IDE/common/Include/cImage.h
+c000000004FA17F8E0000000000001129
+t1335984014
+s4393
+i"Common.h"
+i"uString.h"
+
+N/Applications/AGK/IDE/common/Include/cNode.h
+c000000004E3CE48C0000000000000181
+t1312613516
+s385
+
+N/Applications/AGK/IDE/common/Include/cSound.h
+c000000004F0F6DDE0000000000000ED8
+t1326411230
+s3800
+i"Common.h"
+i"uString.h"
+
+N/Applications/AGK/IDE/common/Include/cSprite.h
+c000000004FBD27220000000000002B67
+t1337796386
+s11111
+i"Common.h"
+i"uString.h"
+
+N/Applications/AGK/IDE/common/Include/cSpriteMgr.h
+c000000004F355B0000000000000016D1
+t1328896768
+s5841
+i"Common.h"
+i"cSprite.h"
+i"cText.h"
+i"Particles.h"
+i"cTextEntry.h"
+
+N/Applications/AGK/IDE/common/Include/cText.h
+c000000004FA43DC6000000000000152E
+t1336163782
+s5422
+i"Common.h"
+i"uString.h"
+
+N/Applications/AGK/IDE/common/Include/cTextEntry.h
+c000000004F70B4EC0000000000000BFB
+t1332786412
+s3067
+i"Common.h"
+i"uString.h"
+
+N/Applications/AGK/IDE/common/Include/cTouch.h
+c000000004FBD27220000000000000842
+t1337796386
+s2114
+i"Common.h"
+
+N/Applications/AGK/IDE/common/Include/uString.h
+c000000004FA17F8E0000000000000E34
+t1335984014
+s3636
+i"Common.h"
+
+N/Applications/AGK/IDE/platform/android/Source/AndroidNetwork.h
+c000000004FA43DC400000000000017D1
+t1336163780
+s6097
+i"Common.h"
+
+N/Applications/AGK/IDE/platform/apple/Source/AppleNetwork.h
+c000000004FA43DC40000000000001961
+t1336163780
+s6497
+i"Common.h"
+
+N/Applications/AGK/IDE/platform/mac/GLFW/glfw.h
+c000000004DD748960000000000004D30
+t1305954454
+s19760
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GL/gl.h>
+i<GL/glu.h>
+
+N/Applications/AGK/IDE/platform/mac/Source/MacNetwork.h
+c000000004FA43DC400000000000019E1
+t1336163780
+s6625
+i"Common.h"
+
+N/Applications/AGK/IDE/platform/windows/Source/WindowsNetwork.h
+c000000004FA43DC4000000000000191A
+t1336163780
+s6426
+i"Common.h"
+
+N/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h
+c000000004F689EA400000000000002B3
+t1332256420
+s691
+i"Common.h"
+i"agkKeys.h"
+i"Globals.h"
+i"cNode.h"
+i"cHashedList.h"
+i"uString.h"
+i"cImage.h"
+i"cSprite.h"
+i"cSpriteMgr.h"
+i"cTouch.h"
+i"cEvent.h"
+i"cSound.h"
+i"cText.h"
+i"cSpriteMgr.h"
+i"Physics.h"
+i"cForce.h"
+i"Thread.h"
+i"Network.h"
+i"NetworkCommon.h"
+i"cFile.h"
+i"Particles.h"
+i"Joystick.h"
+i"Mouse.h"
+i"cTextEntry.h"
+i"ZipFile.h"
+i"Wrapper.h"
+
+N/Applications/AGK/IDE/templates/DataStructures/../../platform/mac/Lib/Debug/libAGKMac.a
+c000000004FCFA71C0000000000E26EE0
+t1339008796
+s14839520
+
+N/Applications/AGK/IDE/templates/DataStructures/Core.mm
+c000000005115200A0000000000001790
+t1360338954
+s6032
+i<Cocoa/Cocoa.h>
+i"agk.h"
+i"template.h"
+i"CoreForApp.h"
+
+N/Applications/AGK/IDE/templates/DataStructures/CoreForApp.h
+c00000000510E8AB6000000000000033F
+t1359907510
+s831
+i"template.h"
+
+N/Applications/AGK/IDE/templates/DataStructures/English.lproj/InfoPlist.strings
+c000000004D768038000000000000002D
+t1299611704
+s45
+
+N/Applications/AGK/IDE/templates/DataStructures/Icon.icns
+c000000004E383ED200000000000498E4
+t1312308946
+s301284
+
+N/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/Core.o
+t1360339941
+s76508
+
+N/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/Template.LinkFileList
+c00000000510DCFC400000000000000F8
+t1359859652
+s248
+
+N/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/graphics.o
+t1359857105
+s51900
+
+N/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/misc.o
+t2
+s0
+
+N/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/template.o
+t1360542952
+s107788
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app
+t1360542952
+s102
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Info.plist
+t1356840461
+s1041
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/MacOS/Template
+t1360542952
+s3849808
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/PkgInfo
+t1356840461
+s8
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1356840461
+s92
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/Icon.icns
+t1356840461
+s301284
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/line.jpg
+t1359933315
+s759
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/page.jp2
+t2
+s0
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/page.jpg
+t1359856911
+s759
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/tabbg.png
+t1360363717
+s5901
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/tabbgdark.png
+t1360363967
+s5863
+
+N/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/template-Info.plist
+t1356840461
+s1126
+
+N/Applications/AGK/IDE/templates/DataStructures/global.h
+c000000005116B266000000000000125E
+t1360441958
+s4702
+
+N/Applications/AGK/IDE/templates/DataStructures/graphics.h
+c00000000510DC33000000000000000D3
+t1359856432
+s211
+i<Cocoa/Cocoa.h>
+
+N/Applications/AGK/IDE/templates/DataStructures/graphics.m
+c00000000510DC5AE00000000000000D2
+t1359857070
+s210
+i"template.h"
+
+N/Applications/AGK/IDE/templates/DataStructures/graphics.mm
+c00000000510DC5AE00000000000000D2
+t1359857070
+s210
+i"template.h"
+
+N/Applications/AGK/IDE/templates/DataStructures/line.jpg
+c00000000510DC4D700000000000002F7
+t1359856855
+s759
+
+N/Applications/AGK/IDE/templates/DataStructures/misc.cpp
+c00000000510DCCF5000000000000042E
+t1359858933
+s1070
+
+N/Applications/AGK/IDE/templates/DataStructures/misc.h
+c00000000510DCF84000000000000021A
+t1359859588
+s538
+
+N/Applications/AGK/IDE/templates/DataStructures/misc.m
+c00000000510DCF590000000000000215
+t1359859545
+s533
+
+N/Applications/AGK/IDE/templates/DataStructures/misc.mm
+c00000000510DCC35000000000000024B
+t1359858741
+s587
+i"misc.h"
+
+N/Applications/AGK/IDE/templates/DataStructures/page.jp2
+c00000000510DC47A0000000000000131
+t1359856762
+s305
+
+N/Applications/AGK/IDE/templates/DataStructures/page.jpg
+c00000000510DC4D700000000000002F7
+t1359856855
+s759
+
+N/Applications/AGK/IDE/templates/DataStructures/tabbg.png
+c0000000051157FED000000000000170D
+t1360363501
+s5901
+
+N/Applications/AGK/IDE/templates/DataStructures/tabbgdark.png
+c00000000511581A000000000000016E7
+t1360363936
+s5863
+
+N/Applications/AGK/IDE/templates/DataStructures/template-Info.plist
+c000000004E3D01420000000000000466
+t1312620866
+s1126
+
+N/Applications/AGK/IDE/templates/DataStructures/template.cpp
+c0000000051183D8100000000000084D8
+t1360543105
+s34008
+i"template.h"
+i<string.h>
+i"global.h"
+
+N/Applications/AGK/IDE/templates/DataStructures/template.h
+c00000000510DCE4F000000000000025B
+t1359859279
+s603
+i"agk.h"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004A67CD070000000000000A22
+t1248316679
+s2594
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A769D9B0000000000003430
+t1249287579
+s13360
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004A769D9B0000000000082EC8
+t1249287579
+s536264
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A600B8400000000000013E6
+t1247808388
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004A769D9C000000000003AB6C
+t1249287580
+s240492
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004A4C40D900000000000064F9
+t1246511321
+s25849
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004A4C40D90000000000001F41
+t1246511321
+s8001
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004A769D9C000000000000DA88
+t1249287580
+s55944
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004A73D92A0000000000025B59
+t1249106218
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004A73D92A0000000000003F84
+t1249106218
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004A769D9C000000000000DA18
+t1249287580
+s55832
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004A769D9D000000000008426C
+t1249287581
+s541292
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004A769D9D00000000000036E0
+t1249287581
+s14048
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004A67CCF600000000000000BF
+t1248316662
+s191
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/Availability.h
+c000000004A11A9B300000000000019DB
+t1242671539
+s6619
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004A4180D20000000000001533
+t1245806802
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004A5C14A60000000000000DCB
+t1247548582
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
+c000000004A5C14A60000000000002C18
+t1247548582
+s11288
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004A5C14A600000000000003EA
+t1247548582
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach-o/dyld.h
+c000000004A73D44F0000000000003D47
+t1249104975
+s15687
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/mach_time.h
+c000000004A73D6540000000000000746
+t1249105492
+s1862
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004A73D64C000000000000539D
+t1249105484
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/tcp.h
+c000000004A73D64E000000000000202F
+t1249105486
+s8239
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004A5C14A700000000000038F0
+t1247548583
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/ioctl.h
+c000000004A73D651000000000000116C
+t1249105489
+s4460
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/param.h
+c000000004A73D65300000000000027BE
+t1249105491
+s10174
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004A73D65400000000000059BC
+t1249105492
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004A73D6550000000000004A1D
+t1249105493
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004A73D6550000000000001E17
+t1249105493
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004A73D6550000000000002905
+t1249105493
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004A5C14A7000000000000178E
+t1247548583
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004A5C14A7000000000000563E
+t1247548583
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11EB2400000000000010DD
+t1242688292
+s4317
+
+N/Users/GabeMontague/Desktop/tabbg.png
+c0000000051157EE9000000000000172C
+t1360363241
+s5932
+
+Ntemplate-Info.plist
+c000000004E3D01420000000000000466
+t1312620866
+s1126
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies382235752#382235752#0(115"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'template-Info.plist'.1(22@108"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'template-Info.plist'.382235752#18446744073709551615#0#0(1@0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/DataStructures.build/Debug/template.build/Objects-normal/i386/Core.o /Applications/AGK/IDE/templates/DataStructures/Core.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s382032740.403002
+e382032741.403302
+r1
+xCompileC
+xbuild/DataStructures.build/Debug/template.build/Objects-normal/i386/Core.o
+x/Applications/AGK/IDE/templates/DataStructures/Core.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Applications/AGK/IDE/templates/DataStructures/Core.mm382032740#382032741#0(0"0(0#0#54"/Applications/AGK/IDE/templates/DataStructures/Core.mm8386658438684291072#1520"    cd /Applications/AGK/IDE/templates/DataStructures    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DIDE_MAC -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-generated-files.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-own-target-headers.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-all-target-headers.hmap -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-project-headers.hmap -F/Applications/AGK/IDE/templates/DataStructures/build/Debug -F/Applications/AGK/IDE/templates/DataStructures/../../platform/mac -I/Applications/AGK/IDE/templates/DataStructures/build/Debug/include -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources/i386 -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources -c /Applications/AGK/IDE/templates/DataStructures/Core.mm -o /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/Core.o0#
+
+CCompileC build/DataStructures.build/Debug/template.build/Objects-normal/i386/graphics.o /Applications/AGK/IDE/templates/DataStructures/graphics.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s381549872.841990
+e381549872.847784
+r0
+xCompileC
+xbuild/DataStructures.build/Debug/template.build/Objects-normal/i386/graphics.o
+x/Applications/AGK/IDE/templates/DataStructures/graphics.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#381549872#0(17061"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:8,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Body'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Shape'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'b2World'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Joint'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Fixture'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Contact'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cNode.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:10,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:63: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'namespace'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:65: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:65: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:89: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:89: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:95: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:95: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:102: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:102: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:115: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:115: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:132: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:132: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:145: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:145: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:161: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:161: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:198: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:198: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:255: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:255: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:277: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:277: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:302: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:302: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:320: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:320: error: cannot find protocol declaration for 'class'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:334: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h:334: error: cannot find protocol declaration for 'class'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:11,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/uString.h:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:12,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cImage.h:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:13,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSprite.h:32: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h:7,                 from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:14,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cText.h:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h:8,                 from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:14,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Particles.h:8: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:14,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cTextEntry.h:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:14,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:15,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cTouch.h:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:16,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cEvent.h:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:17,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSound.h:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:20,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Physics.h:4: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:21,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cForce.h:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:22,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Thread.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h:17,                 from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h:13,                 from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:23,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h:15: error: expected specifier-qualifier-list before 'cHTTPConnection'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h:20: error: expected specifier-qualifier-list before 'uString'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h:21: error: expected specifier-qualifier-list before 'AGK'/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:23,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:25,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cFile.h:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:27,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Joystick.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:28,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Mouse.h:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:30,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/ZipFile.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h:31,                 from /Applications/AGK/IDE/templates/DataStructures/template.h:9,                 from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Wrapper.h:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m:5:/Applications/AGK/IDE/templates/DataStructures/template.h:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'app'/Applications/AGK/IDE/templates/DataStructures/template.h:31: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'App'/Applications/AGK/IDE/templates/DataStructures/graphics.m:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'namespace'/Applications/AGK/IDE/templates/DataStructures/graphics.m: In function 'LoadImages':/Applications/AGK/IDE/templates/DataStructures/graphics.m:11: error: 'agk' undeclared (first use in this function)/Applications/AGK/IDE/templates/DataStructures/graphics.m:11: error: (Each undeclared identifier is reported only once/Applications/AGK/IDE/templates/DataStructures/graphics.m:11: error: for each function it appears in.)/Applications/AGK/IDE/templates/DataStructures/graphics.m:11: error: expected ',' or ';' before ':' token/Applications/AGK/IDE/templates/DataStructures/graphics.m:11: warning: unused variable 'IMG_PAGE'67(4@64"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Body'381549872#265#154#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#8#0#8#0#0"0(13@145"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Body' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#19#0#19#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#19#0#19#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Shape'381549872#419#155#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#8#0#8#0#0"0(13@146"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Shape' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#20#0#20#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#20#0#20#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2World'381549872#574#155#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#8#0#8#0#0"0(13@146"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2World' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#21#0#21#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#21#0#21#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Joint'381549872#729#155#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#8#0#8#0#0"0(13@146"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Joint' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#22#0#22#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#22#0#22#0#19"expected * before *0(4@67"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Fixture'381549872#884#157#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#8#0#8#0#0"0(13@148"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Fixture' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#23#0#23#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#23#0#23#0#19"expected * before *0(4@67"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Contact'381549872#1041#157#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#8#0#8#0#0"0(13@148"Expected '=', ',', ';', 'asm' or '__attribute__' before 'b2Contact' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#25#0#25#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Globals.h334306316#25#0#25#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#1463#148#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#9#0#9#0#0"0(13@140"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cNode.h381549872#18446744073709551615#0#0(6@75"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cNode.h334306316#6#0#6#0#0"0(6@75"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cNode.h334306316#6#0#6#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#1877#154#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@146"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#9#0#9#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#9#0#9#0#19"expected * before *0(4@67"Expected '=', ',', ';', 'asm' or '__attribute__' before 'namespace'381549872#2031#161#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@152"Expected '=', ',', ';', 'asm' or '__attribute__' before 'namespace' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#63#0#63#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#63#0#63#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#2192#159#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#65#0#65#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#65#0#65#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#2351#138#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#65#0#65#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#65#0#65#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#2489#159#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#89#0#89#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#89#0#89#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#2648#138#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#89#0#89#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#89#0#89#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#2786#159#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#95#0#95#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#95#0#95#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#2945#138#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#95#0#95#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#95#0#95#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#3083#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#102#0#102#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#102#0#102#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#3243#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#102#0#102#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#102#0#102#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#3382#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#115#0#115#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#115#0#115#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#3542#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#115#0#115#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#115#0#115#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#3681#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#132#0#132#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#132#0#132#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#3841#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#132#0#132#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#132#0#132#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#3980#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#145#0#145#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#145#0#145#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#4140#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#145#0#145#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#145#0#145#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#4279#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#161#0#161#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#161#0#161#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#4439#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#161#0#161#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#161#0#161#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#4578#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#198#0#198#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#198#0#198#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#4738#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#198#0#198#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#198#0#198#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#4877#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#255#0#255#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#255#0#255#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#5037#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#255#0#255#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#255#0#255#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#5176#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#277#0#277#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#277#0#277#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#5336#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#277#0#277#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#277#0#277#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#5475#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#302#0#302#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#302#0#302#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#5635#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#302#0#302#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#302#0#302#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#5774#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#320#0#320#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#320#0#320#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#5934#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#320#0#320#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#320#0#320#0#0"0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token381549872#6073#160#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@150"Expected '=', ',', ';', 'asm' or '__attribute__' before '<' token in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#334#0#334#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#334#0#334#0#19"expected * before *0(4@44"Cannot find protocol declaration for 'class'381549872#6233#139#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#10#0#10#0#0"0(13@129"Cannot find protocol declaration for 'class' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h381549872#18446744073709551615#0#0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#334#0#334#0#0"0(6@81"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cHashedList.h347936900#334#0#334#0#0"0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#6638#150#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#11#0#11#0#0"0(13@142"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/uString.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/uString.h357676814#7#0#7#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/uString.h357676814#7#0#7#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#7054#150#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#12#0#12#0#0"0(13@141"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cImage.h381549872#18446744073709551615#0#0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cImage.h357676814#12#0#12#0#0"0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cImage.h357676814#12#0#12#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#7470#151#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#13#0#13#0#0"0(13@142"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSprite.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSprite.h359489186#32#0#32#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSprite.h359489186#32#0#32#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#7993#149#5(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#14#0#14#0#0"0(7@102"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h381549872#18446744073709551615#0#0(6@80"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h350589568#7#0#7#0#0"0(13@140"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cText.h381549872#18446744073709551615#0#0(6@75"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cText.h357856582#12#0#12#0#0"0(6@75"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cText.h357856582#12#0#12#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#8514#152#5(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#14#0#14#0#0"0(7@102"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h381549872#18446744073709551615#0#0(6@80"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h350589568#8#0#8#0#0"0(13@144"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Particles.h381549872#18446744073709551615#0#0(6@79"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Particles.h356306600#8#0#8#0#0"0(6@79"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Particles.h356306600#8#0#8#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#9038#154#5(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#14#0#14#0#0"0(7@102"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h381549872#18446744073709551615#0#0(6@80"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h350589568#9#0#9#0#0"0(13@145"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cTextEntry.h381549872#18446744073709551615#0#0(6@80"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cTextEntry.h354479212#11#0#11#0#0"0(6@80"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cTextEntry.h354479212#11#0#11#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#9458#154#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#14#0#14#0#0"0(13@145"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h381549872#18446744073709551615#0#0(6@80"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h350589568#12#0#12#0#0"0(6@80"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSpriteMgr.h350589568#12#0#12#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#9878#150#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#15#0#15#0#0"0(13@141"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cTouch.h381549872#18446744073709551615#0#0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cTouch.h359489186#11#0#11#0#0"0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cTouch.h359489186#11#0#11#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#10294#150#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#16#0#16#0#0"0(13@141"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cEvent.h381549872#18446744073709551615#0#0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cEvent.h334306316#11#0#11#0#0"0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cEvent.h334306316#11#0#11#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#10710#150#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#17#0#17#0#0"0(13@141"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSound.h381549872#18446744073709551615#0#0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSound.h348104030#13#0#13#0#0"0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cSound.h348104030#13#0#13#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#11126#150#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#20#0#20#0#0"0(13@142"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Physics.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Physics.h334306316#4#0#4#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Physics.h334306316#4#0#4#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#11542#150#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#21#0#21#0#0"0(13@141"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cForce.h381549872#18446744073709551615#0#0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cForce.h334306316#11#0#11#0#0"0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cForce.h334306316#11#0#11#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#11958#149#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#22#0#22#0#0"0(13@141"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Thread.h381549872#18446744073709551615#0#0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Thread.h357864916#6#0#6#0#0"0(6@76"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Thread.h357864916#6#0#6#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#12587#179#6(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#23#0#23#0#0"0(7@99"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h334306316#13#0#13#0#0"0(7@105"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h381549872#18446744073709551615#0#0(6@83"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h347826876#17#0#17#0#0"0(13@171"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h381549872#18446744073709551615#0#0(6@106"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h357856580#6#0#6#0#0"0(6@106"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h357856580#6#0#6#0#19"expected * before *0(4@58"Expected specifier-qualifier-list before 'cHTTPConnection'381549872#12766#177#6(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#23#0#23#0#0"0(7@99"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h334306316#13#0#13#0#0"0(7@105"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h381549872#18446744073709551615#0#0(6@83"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h347826876#17#0#17#0#0"0(13@168"Expected specifier-qualifier-list before 'cHTTPConnection' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h381549872#18446744073709551615#0#0(6@106"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h357856580#15#0#15#0#0"0(6@106"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h357856580#15#0#15#0#19"expected * before *0(4@50"Expected specifier-qualifier-list before 'uString'381549872#12943#169#6(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#23#0#23#0#0"0(7@99"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h334306316#13#0#13#0#0"0(7@105"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h381549872#18446744073709551615#0#0(6@83"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h347826876#17#0#17#0#0"0(13@160"Expected specifier-qualifier-list before 'uString' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h381549872#18446744073709551615#0#0(6@106"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h357856580#20#0#20#0#0"0(6@106"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h357856580#20#0#20#0#19"expected * before *0(4@46"Expected specifier-qualifier-list before 'AGK'381549872#13112#165#6(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#23#0#23#0#0"0(7@99"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h334306316#13#0#13#0#0"0(7@105"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h381549872#18446744073709551615#0#0(6@83"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h347826876#17#0#17#0#0"0(13@156"Expected specifier-qualifier-list before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h381549872#18446744073709551615#0#0(6@106"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h357856580#21#0#21#0#0"0(6@106"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h357856580#21#0#21#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#13277#180#6(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#23#0#23#0#0"0(7@99"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h334306316#13#0#13#0#0"0(7@105"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h381549872#18446744073709551615#0#0(6@83"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/NetworkCommon.h347826876#17#0#17#0#0"0(13@171"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h381549872#18446744073709551615#0#0(6@106"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h357856580#25#0#25#0#0"0(6@106"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/../../platform/mac/Source/MacNetwork.h357856580#25#0#25#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#13723#151#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#23#0#23#0#0"0(13@142"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h334306316#16#0#16#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Network.h334306316#16#0#16#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#14140#149#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#25#0#25#0#0"0(13@140"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/cFile.h381549872#18446744073709551615#0#0(6@75"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cFile.h334306316#12#0#12#0#0"0(6@75"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/cFile.h334306316#12#0#12#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#14555#151#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#27#0#27#0#0"0(13@143"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Joystick.h381549872#18446744073709551615#0#0(6@78"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Joystick.h334306316#6#0#6#0#0"0(6@78"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Joystick.h334306316#6#0#6#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#14972#149#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#28#0#28#0#0"0(13@140"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Mouse.h381549872#18446744073709551615#0#0(6@75"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Mouse.h337252144#15#0#15#0#0"0(6@75"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Mouse.h337252144#15#0#15#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#15387#150#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#30#0#30#0#0"0(13@142"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/ZipFile.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/ZipFile.h353949220#6#0#6#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/ZipFile.h353949220#6#0#6#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK'381549872#15803#151#4(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#9#0#9#0#0"0(7@95"In file included from /Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h381549872#18446744073709551615#0#0(6@73"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/agk.h353949220#31#0#31#0#0"0(13@142"Expected '=', ',', ';', 'asm' or '__attribute__' before 'AGK' in /Applications/AGK/IDE/templates/DataStructures/../../common/Include/Wrapper.h381549872#18446744073709551615#0#0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Wrapper.h360101392#25#0#25#0#0"0(6@77"/Applications/AGK/IDE/templates/DataStructures/../../common/Include/Wrapper.h360101392#25#0#25#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'app'381549872#16037#131#2(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(13@122"Expected '=', ',', ';', 'asm' or '__attribute__' before 'app' in /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#12#0#12#0#0"0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#12#0#12#0#19"expected * before *0(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'App'381549872#16168#131#2(7@79"In file included from /Applications/AGK/IDE/templates/DataStructures/graphics.m381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#5#0#5#0#0"0(13@122"Expected '=', ',', ';', 'asm' or '__attribute__' before 'App' in /Applications/AGK/IDE/templates/DataStructures/template.h381549872#18446744073709551615#0#0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#31#0#31#0#0"0(6@57"/Applications/AGK/IDE/templates/DataStructures/template.h381538825#31#0#31#0#19"expected * before *0(4@67"Expected '=', ',', ';', 'asm' or '__attribute__' before 'namespace'381549872#16299#136#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#7#0#7#0#19"expected * before *0(4@45"'agk' undeclared (first use in this function)381549872#16520#115#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#11#0#11#0#43"'*' undeclared (first use in this function)0(4@36"Expected ',' or ';' before ':' token381549872#16857#106#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#11#0#11#0#19"expected * before *0(22@26"Unused variable 'IMG_PAGE'381549872#16963#98#0(6@57"/Applications/AGK/IDE/templates/DataStructures/graphics.m381549870#11#0#11#0#19"unused variable '*'0(0#0#57"/Applications/AGK/IDE/templates/DataStructures/graphics.m4300882208#1508"    cd /Applications/AGK/IDE/templates/DataStructures    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DIDE_MAC -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-generated-files.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-own-target-headers.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-all-target-headers.hmap -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-project-headers.hmap -F/Applications/AGK/IDE/templates/DataStructures/build/Debug -F/Applications/AGK/IDE/templates/DataStructures/../../platform/mac -I/Applications/AGK/IDE/templates/DataStructures/build/Debug/include -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources/i386 -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources -c /Applications/AGK/IDE/templates/DataStructures/graphics.m -o /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/graphics.o1#
+
+CCompileC build/DataStructures.build/Debug/template.build/Objects-normal/i386/graphics.o /Applications/AGK/IDE/templates/DataStructures/graphics.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s381549904.807773
+e381549905.705009
+r1
+xCompileC
+xbuild/DataStructures.build/Debug/template.build/Objects-normal/i386/graphics.o
+x/Applications/AGK/IDE/templates/DataStructures/graphics.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Applications/AGK/IDE/templates/DataStructures/graphics.mm: In function 'void LoadImages()':
+o/Applications/AGK/IDE/templates/DataStructures/graphics.mm:11: warning: unused variable 'IMG_PAGE'
+lSLF07#2@66"Compile /Applications/AGK/IDE/templates/DataStructures/graphics.mm381549904#381549905#0(192"/Applications/AGK/IDE/templates/DataStructures/graphics.mm: In function 'void LoadImages()':/Applications/AGK/IDE/templates/DataStructures/graphics.mm:11: warning: unused variable 'IMG_PAGE'1(22@26"Unused variable 'IMG_PAGE'381549905#93#99#0(6@58"/Applications/AGK/IDE/templates/DataStructures/graphics.mm381549870#11#0#11#0#19"unused variable '*'0(0#0#58"/Applications/AGK/IDE/templates/DataStructures/graphics.mm4300882208#1528"    cd /Applications/AGK/IDE/templates/DataStructures    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DIDE_MAC -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-generated-files.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-own-target-headers.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-all-target-headers.hmap -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-project-headers.hmap -F/Applications/AGK/IDE/templates/DataStructures/build/Debug -F/Applications/AGK/IDE/templates/DataStructures/../../platform/mac -I/Applications/AGK/IDE/templates/DataStructures/build/Debug/include -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources/i386 -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources -c /Applications/AGK/IDE/templates/DataStructures/graphics.mm -o /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/graphics.o0#
+
+CCompileC build/DataStructures.build/Debug/template.build/Objects-normal/i386/misc.o /Applications/AGK/IDE/templates/DataStructures/misc.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s381551736.113515
+e381551736.114391
+r0
+xCompileC
+xbuild/DataStructures.build/Debug/template.build/Objects-normal/i386/misc.o
+x/Applications/AGK/IDE/templates/DataStructures/misc.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Applications/AGK/IDE/templates/DataStructures/misc.cpp381551736#381551736#0(540"/Applications/AGK/IDE/templates/DataStructures/misc.cpp:22: error: 'MAX_PAGETEXT_LENGTH' was not declared in this scope/Applications/AGK/IDE/templates/DataStructures/misc.cpp: In function 'void NewPage()':/Applications/AGK/IDE/templates/DataStructures/misc.cpp:43: error: 'pagePointer' was not declared in this scope/Applications/AGK/IDE/templates/DataStructures/misc.cpp:43: error: 'numPages' was not declared in this scope/Applications/AGK/IDE/templates/DataStructures/misc.cpp:44: error: 'currentPage' was not declared in this scope4(4@52"'MAX_PAGETEXT_LENGTH' was not declared in this scope381551736#0#120#0(6@55"/Applications/AGK/IDE/templates/DataStructures/misc.cpp381551733#22#0#22#0#34"'*' was not declared in this scope0(4@44"'pagePointer' was not declared in this scope381551736#207#112#0(6@55"/Applications/AGK/IDE/templates/DataStructures/misc.cpp381551733#43#0#43#0#34"'*' was not declared in this scope0(4@41"'numPages' was not declared in this scope381551736#319#109#0(6@55"/Applications/AGK/IDE/templates/DataStructures/misc.cpp381551733#43#0#43#0#34"'*' was not declared in this scope0(4@44"'currentPage' was not declared in this scope381551736#428#112#0(6@55"/Applications/AGK/IDE/templates/DataStructures/misc.cpp381551733#44#0#44#0#34"'*' was not declared in this scope0(0#0#55"/Applications/AGK/IDE/templates/DataStructures/misc.cpp4300882208#1511"    cd /Applications/AGK/IDE/templates/DataStructures    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DIDE_MAC -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-generated-files.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-own-target-headers.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-all-target-headers.hmap -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-project-headers.hmap -F/Applications/AGK/IDE/templates/DataStructures/build/Debug -F/Applications/AGK/IDE/templates/DataStructures/../../platform/mac -I/Applications/AGK/IDE/templates/DataStructures/build/Debug/include -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources/i386 -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources -c /Applications/AGK/IDE/templates/DataStructures/misc.cpp -o /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/misc.o1#
+
+CCompileC build/DataStructures.build/Debug/template.build/Objects-normal/i386/misc.o /Applications/AGK/IDE/templates/DataStructures/misc.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s381552390.327646
+e381552390.346330
+r0
+xCompileC
+xbuild/DataStructures.build/Debug/template.build/Objects-normal/i386/misc.o
+x/Applications/AGK/IDE/templates/DataStructures/misc.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Applications/AGK/IDE/templates/DataStructures/misc.m: In function 'NewPage':
+o/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: 'pagePointer' undeclared (first use in this function)
+o/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: (Each undeclared identifier is reported only once
+o/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: for each function it appears in.)
+o/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: 'numPages' undeclared (first use in this function)
+o/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: 'new' undeclared (first use in this function)
+o/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: expected ';' before 'page'
+o/Applications/AGK/IDE/templates/DataStructures/misc.m:14: error: 'currentPage' undeclared (first use in this function)
+o/Applications/AGK/IDE/templates/DataStructures/misc.m:22: error: 'agk' undeclared (first use in this function)
+o/Applications/AGK/IDE/templates/DataStructures/misc.m:22: error: expected ';' before ':' token
+lSLF07#2@61"Compile /Applications/AGK/IDE/templates/DataStructures/misc.m381552390#381552390#0(1055"/Applications/AGK/IDE/templates/DataStructures/misc.m: In function 'NewPage':/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: 'pagePointer' undeclared (first use in this function)/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: (Each undeclared identifier is reported only once/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: for each function it appears in.)/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: 'numPages' undeclared (first use in this function)/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: 'new' undeclared (first use in this function)/Applications/AGK/IDE/templates/DataStructures/misc.m:13: error: expected ';' before 'page'/Applications/AGK/IDE/templates/DataStructures/misc.m:14: error: 'currentPage' undeclared (first use in this function)/Applications/AGK/IDE/templates/DataStructures/misc.m:22: error: 'agk' undeclared (first use in this function)/Applications/AGK/IDE/templates/DataStructures/misc.m:22: error: expected ';' before ':' token7(4@53"'pagePointer' undeclared (first use in this function)381552390#78#119#0(6@53"/Applications/AGK/IDE/templates/DataStructures/misc.m381552345#13#0#13#0#43"'*' undeclared (first use in this function)0(4@50"'numPages' undeclared (first use in this function)381552390#411#116#0(6@53"/Applications/AGK/IDE/templates/DataStructures/misc.m381552345#13#0#13#0#43"'*' undeclared (first use in this function)0(4@45"'new' undeclared (first use in this function)381552390#527#111#0(6@53"/Applications/AGK/IDE/templates/DataStructures/misc.m381552345#13#0#13#0#43"'*' undeclared (first use in this function)0(4@26"Expected ';' before 'page'381552390#638#92#0(6@53"/Applications/AGK/IDE/templates/DataStructures/misc.m381552345#13#0#13#0#19"expected * before *0(4@53"'currentPage' undeclared (first use in this function)381552390#730#119#0(6@53"/Applications/AGK/IDE/templates/DataStructures/misc.m381552345#14#0#14#0#43"'*' undeclared (first use in this function)0(4@45"'agk' undeclared (first use in this function)381552390#849#111#0(6@53"/Applications/AGK/IDE/templates/DataStructures/misc.m381552345#22#0#22#0#43"'*' undeclared (first use in this function)0(4@29"Expected ';' before ':' token381552390#960#95#0(6@53"/Applications/AGK/IDE/templates/DataStructures/misc.m381552345#22#0#22#0#19"expected * before *0(0#0#53"/Applications/AGK/IDE/templates/DataStructures/misc.m4300882208#1500"    cd /Applications/AGK/IDE/templates/DataStructures    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DIDE_MAC -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-generated-files.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-own-target-headers.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-all-target-headers.hmap -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-project-headers.hmap -F/Applications/AGK/IDE/templates/DataStructures/build/Debug -F/Applications/AGK/IDE/templates/DataStructures/../../platform/mac -I/Applications/AGK/IDE/templates/DataStructures/build/Debug/include -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources/i386 -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources -c /Applications/AGK/IDE/templates/DataStructures/misc.m -o /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/misc.o1#
+
+CCompileC build/DataStructures.build/Debug/template.build/Objects-normal/i386/misc.o /Applications/AGK/IDE/templates/DataStructures/misc.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s381551541.827714
+e381551541.879800
+r1
+xCompileC
+xbuild/DataStructures.build/Debug/template.build/Objects-normal/i386/misc.o
+x/Applications/AGK/IDE/templates/DataStructures/misc.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Applications/AGK/IDE/templates/DataStructures/misc.mm381551541#381551541#0(0"0(0#0#54"/Applications/AGK/IDE/templates/DataStructures/misc.mm4300882208#1520"    cd /Applications/AGK/IDE/templates/DataStructures    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DIDE_MAC -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-generated-files.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-own-target-headers.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-all-target-headers.hmap -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-project-headers.hmap -F/Applications/AGK/IDE/templates/DataStructures/build/Debug -F/Applications/AGK/IDE/templates/DataStructures/../../platform/mac -I/Applications/AGK/IDE/templates/DataStructures/build/Debug/include -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources/i386 -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources -c /Applications/AGK/IDE/templates/DataStructures/misc.mm -o /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/misc.o0#
+
+CCompileC build/DataStructures.build/Debug/template.build/Objects-normal/i386/template.o /Applications/AGK/IDE/templates/DataStructures/template.cpp normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s382235752.707824
+e382235752.708684
+r1
+xCompileC
+xbuild/DataStructures.build/Debug/template.build/Objects-normal/i386/template.o
+x/Applications/AGK/IDE/templates/DataStructures/template.cpp
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Applications/AGK/IDE/templates/DataStructures/template.cpp382235752#382235752#0(0"0(0#0#59"/Applications/AGK/IDE/templates/DataStructures/template.cpp4300882208#1529"    cd /Applications/AGK/IDE/templates/DataStructures    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DIDE_MAC -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-generated-files.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-own-target-headers.hmap -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-all-target-headers.hmap -iquote /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Template-project-headers.hmap -F/Applications/AGK/IDE/templates/DataStructures/build/Debug -F/Applications/AGK/IDE/templates/DataStructures/../../platform/mac -I/Applications/AGK/IDE/templates/DataStructures/build/Debug/include -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources/i386 -I/Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/DerivedSources -c /Applications/AGK/IDE/templates/DataStructures/template.cpp -o /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/template.o0#
+
+CCopyPlistFile /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/template-Info.plist template-Info.plist
+r0
+
+CCopyStringsFile /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/Template.app/Contents/Resources/Icon.icns Icon.icns
+r0
+
+CCpResource build/Debug/Template.app/Contents/Resources/line.jpg line.jpg
+s381626115.791032
+e381626115.817930
+r1
+xCpResource
+xbuild/Debug/Template.app/Contents/Resources/line.jpg
+xline.jpg
+lSLF07#2@13"Copy line.jpg381626115#381626115#0(0"0(0#0#55"/Applications/AGK/IDE/templates/DataStructures/line.jpg32370056119910512#349"    cd /Applications/AGK/IDE/templates/DataStructures    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Applications/AGK/IDE/templates/DataStructures/line.jpg /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources0#
+
+CCpResource build/Debug/Template.app/Contents/Resources/page.jp2 page.jp2
+r0
+
+CCpResource build/Debug/Template.app/Contents/Resources/page.jpg page.jpg
+s381549711.669320
+e381549711.690833
+r1
+xCpResource
+xbuild/Debug/Template.app/Contents/Resources/page.jpg
+xpage.jpg
+lSLF07#2@13"Copy page.jpg381549711#381549711#0(0"0(0#0#55"/Applications/AGK/IDE/templates/DataStructures/page.jpg32370056119910512#349"    cd /Applications/AGK/IDE/templates/DataStructures    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Applications/AGK/IDE/templates/DataStructures/page.jpg /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources0#
+
+CCpResource build/Debug/Template.app/Contents/Resources/tabbg.png /Users/GabeMontague/Desktop/tabbg.png
+r0
+
+CCpResource build/Debug/Template.app/Contents/Resources/tabbg.png tabbg.png
+s382056517.962152
+e382056517.980226
+r1
+xCpResource
+xbuild/Debug/Template.app/Contents/Resources/tabbg.png
+xtabbg.png
+lSLF07#2@14"Copy tabbg.png382056517#382056517#0(0"0(0#0#56"/Applications/AGK/IDE/templates/DataStructures/tabbg.png32370056119910512#350"    cd /Applications/AGK/IDE/templates/DataStructures    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Applications/AGK/IDE/templates/DataStructures/tabbg.png /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources0#
+
+CCpResource build/Debug/Template.app/Contents/Resources/tabbgdark.png tabbgdark.png
+s382056767.745181
+e382056767.767800
+r1
+xCpResource
+xbuild/Debug/Template.app/Contents/Resources/tabbgdark.png
+xtabbgdark.png
+lSLF07#2@18"Copy tabbgdark.png382056767#382056767#0(0"0(0#0#60"/Applications/AGK/IDE/templates/DataStructures/tabbgdark.png4300882208#354"    cd /Applications/AGK/IDE/templates/DataStructures    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Applications/AGK/IDE/templates/DataStructures/tabbgdark.png /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Resources0#
+
+CLd /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/MacOS/Template normal i386
+s382235752.708727
+e382235752.950628
+r1
+xLd
+x/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/MacOS/Template
+xnormal
+xi386
+lSLF07#2@100"Link /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/MacOS/Template382235752#382235752#0(0"0(0#0#0"4300882208#1018"    cd /Applications/AGK/IDE/templates/DataStructures    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Applications/AGK/IDE/templates/DataStructures/build/Debug -L/Applications/AGK/IDE/templates/DataStructures/../../platform/mac/Lib/Debug -L/Applications/AGK/IDE/templates/DataStructures/../../platform/mac/DDHidLib -L/Applications/AGK/IDE/templates/DataStructures/../../platform/mac/GLFW -F/Applications/AGK/IDE/templates/DataStructures/build/Debug -F/Applications/AGK/IDE/templates/DataStructures/../../platform/mac -filelist /Applications/AGK/IDE/templates/DataStructures/build/DataStructures.build/Debug/template.build/Objects-normal/i386/Template.LinkFileList -mmacosx-version-min=10.6 -all_load -framework Quartz -framework OpenGL -framework CoreFoundation -framework Cocoa -framework OpenAL -framework QTKit -lAGKMac -framework IOKit -o /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/MacOS/Template0#
+
+CProcessInfoPlistFile /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app/Contents/Info.plist template-Info.plist
+r0
+
+CTouch /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app
+s382235752.950696
+e382235752.952658
+r1
+xTouch
+x/Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app
+lSLF07#2@77"Touch /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app382235752#382235752#0(0"0(0#0#0"4300882208#148"    cd /Applications/AGK/IDE/templates/DataStructures    /usr/bin/touch -c /Applications/AGK/IDE/templates/DataStructures/build/Debug/Template.app0#
+
