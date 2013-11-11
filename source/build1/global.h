@@ -45,7 +45,7 @@ const int ac = -1;
 
 // Project-specific variables:
 char title[MAX_PAGETEXT_LENGTH] = "My Score";
-char composer[MAX_PAGETEXT_LENGTH] = "Gabe Montague";
+char composer[MAX_PAGETEXT_LENGTH] = "Composer";
 char copyright[MAX_PAGETEXT_LENGTH] = " 2013";
 
 // Preferences

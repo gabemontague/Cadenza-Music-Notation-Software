@@ -1596,6 +1596,7 @@ void ArrangeTabBar( void )
 void HideTabContent( int tabNum )
 {
 	tab* target = tabPtr[tabNum];
+    if(tabPtr[currentTab] == NULL) return;
 	
 	int tempCurrentTab = currentTab;
 	currentTab = tabNum;
@@ -1838,6 +1839,7 @@ void RecognizeGesture( void )
 }
 void ClearGestures( void )
 {
+    if( tabPtr[currentTab] == NULL ) return;
 	for( int a = 0; a < tbPtr->numGestures; a++ )
 	{
 		gesture* target = gsPtr( a );
@@ -2122,7 +2124,7 @@ void MainCreateNew( void )
 
 	ArrangeStaffSystems( 0,  0 );
     
-    NewBarLineSplitMeasurePercent( 0, 0, 0, 50.0f, 0.5 );
+    //NewBarLineSplitMeasurePercent( 0, 0, 0, 50.0f, 0.5 );
 }
 void ViewControl( void )
 {
