@@ -44,9 +44,10 @@ NewTab( MUSIC_FULL );
 // Add a new stave to the first staff system on the page. In the future we would specify the instrument too.
 // Format: NewStave(int pageNum, int staffSystemNum)
 NewStave(ac, 0);
-                   // Passing the constant 'ac' tells Cadenza to find the first staff system in the entire
-                   // score, whereas calling NewStave(0, 0) would act upon the first system of the first page.
-                   // 'ac' (Auto-calculate) can be used for any rendering function.
+                    // Passing the constant 'ac' tells Cadenza to find the first staff system in
+                    // the entire score, whereas calling NewStave(0, 0) would act upon the first
+                    // system of the first page. 'ac' (Auto-calculate) can be used for any 
+                    // rendering function.
 
 
 // Auto-arrange our staff-systems to look nice, starting on the first staff system (0)  of the first page (0)
