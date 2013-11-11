@@ -83,11 +83,14 @@ NewBarLineSplitMeasurePercent(ac, ac, 0, 80.0f, 0.25);
 //                  noteLetterEnum letter, char octaveNum, noteAccidentalEnum
 //                  accidentalName )
 
-NewNote(ac, ac, 0, 0, nC, 4, naNone); // Adds note C4 to the first barline of the upper stave
+NewNote(ac, ac, 0, 0, nC, 4, naNone); // Adds note C4 to the 1st barline of
+                                      // the upper stave
 NewNote(ac, ac, 0, 0, nE, 3, naNone);
-NewNote(ac, ac, 0, 0, nG, 3, naNone); // We have a 1st-inversion C-chord in our right hand!
+NewNote(ac, ac, 0, 0, nG, 3, naNone); // We have a 1st-inversion C-chord in
+                                      // our right hand!
 
-NewNote(ac, ac, 0, 1, nC, 3, naNone); // Adds the bass note C3 to the the lower stave
+NewNote(ac, ac, 0, 1, nC, 3, naNone); // Adds the bass note C3 to the the
+                                      // lower stave
 
 // Now let's do the three other beats...
 NewNote(ac, ac, 1, 0, nC, 4, naNone);
