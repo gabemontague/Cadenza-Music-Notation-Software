@@ -40,25 +40,29 @@ To create a simple chord progression split between two staves, the following cod
 ```c
 // Add a new music score to the project. Pages of staff-systems with single staves are
 // automatically generated.
+
 NewTab( MUSIC_FULL );
 
 // Add a new stave to the first staff system on the page. In the future we would
 // specify the instrument too.
 // Format: NewStave(int pageNum, int staffSystemNum)
-NewStave(ac, 0);
-                // Passing the constant 'ac' tells Cadenza to find the first staff
-                // system in the entire score, whereas calling NewStave(0, 0)
-                // would act upon the first system of the first page. 'ac' (Auto-
-                // calculate) can be used for any rendering function.
 
+NewStave(ac, 0);
+
+// Passing the constant 'ac' tells Cadenza to find the first staff
+// system in the entire score, whereas calling NewStave(0, 0)
+// would act upon the first system of the first page. 'ac' (Auto-
+// calculate) can be used for any rendering function.
 
 // Auto-arrange our staff-systems to look nice, starting on the first staff system (0)
 // of the first page (0)
+
 ArrangeStaffSystems(0, 0);
 
 // Split our staff system up into 4 measures by placing 3 barlines.
 // Format: NewBarLineSplitStaffSystemPercent(int pageNum, int staffSystemNum,
 //                                           float percentOfWidth)
+
 NewBarLineSplitStaffSystemPercent(ac, 0, 25.0f);
 NewBarLineSplitStaffSystemPercent(ac, 0, 50.0f);
 NewBarLineSplitStaffSystemPercent(ac, 0, 75.0f);
@@ -68,16 +72,18 @@ NewBarLineSplitStaffSystemPercent(ac, 0, 75.0f);
 // Format: NewBarLineSplitMeasurePercent(int pageNum, int staffSystemNum,
 //                                       int measureNum, float percentOfWidth,
 //                                       double timeInterval)
-NewBarLineSplitMeasurePercent(ac, ac, 0, 20.0f, 0); // At the first beat no time has passed
+
+NewBarLineSplitMeasurePercent(ac, ac, 0, 20.0f, 0); // 1st beat: no time has passed
 NewBarLineSplitMeasurePercent(ac, ac, 0, 40.0f, 0.25); // 0.25 is a 1/4 note
 NewBarLineSplitMeasurePercent(ac, ac, 0, 60.0f, 0.25);
 NewBarLineSplitMeasurePercent(ac, ac, 0, 80.0f, 0.25);
 
 // Finally, add some notes to our four beats
 // Format: NewNote( int pageNum, int staffSystemNum, int subbarLineNum, int staveNum,
-                // noteLetterEnum letter, char octaveNum, noteAccidentalEnum accidentalName )
+//                  noteLetterEnum letter, char octaveNum, noteAccidentalEnum
+//                  accidentalName )
 
-NewNote(ac, ac, 0, 0, nC, 4, naNone); // Adds the note C4 to the first barline of the upper stave
+NewNote(ac, ac, 0, 0, nC, 4, naNone); // Adds note C4 to the first barline of the upper stave
 NewNote(ac, ac, 0, 0, nE, 3, naNone);
 NewNote(ac, ac, 0, 0, nG, 3, naNone); // We have a 1st-inversion C-chord in our right hand!
 
