@@ -12,7 +12,7 @@ extern QApplication* g_appptr;
 int AppInitCode ( void )
 {
 	App.m_DeviceWidth = 1024;
-	App.m_DeviceHeight = 1200;
+	App.m_DeviceHeight = 768;
 	return 1;
 }
 

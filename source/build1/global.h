@@ -6,18 +6,6 @@
 #define _GLOBALS_H_
 
 #define PROGRAM_TITLE "Cadenza"
-#define MAX_TABS 31
-#define MAX_PAGES 511 // Per tab
-#define MAX_GESTURES 10 // Per tab
-#define MAX_PAGETEXT_PER_PAGE 255
-#define MAX_PAGETEXT_LENGTH 255
-#define MAX_STAFF_SYSTEM_PER_PAGE 31
-#define MAX_STAVE_PER_STAFF_SYSTEM 255
-#define MAX_BARLINE_PER_STAFF_SYSTEM 127
-#define MAX_FILENAME_LENGTH 63
-#define MAX_NOTE_PER_BARLINE 127
-#define MIN_SUBDIV_SPACING 5
-
 #define MAX_DRAW 2047
 
 float printVal = -256;
@@ -42,6 +30,18 @@ enum appScreenEnum{ LAUNCHER, MAIN, PREFERENCES } appScreen = MAIN;
 
 // Automatic calculation of page, SS, etc.
 const int ac = -1;
+
+#define MAX_TABS 31
+#define MAX_PAGES 511 // Per tab
+#define MAX_GESTURES 10 // Per tab
+#define MAX_PAGETEXT_PER_PAGE 255
+#define MAX_PAGETEXT_LENGTH 255
+#define MAX_STAFF_SYSTEM_PER_PAGE 31
+#define MAX_STAVE_PER_STAFF_SYSTEM 255
+#define MAX_BARLINE_PER_STAFF_SYSTEM 127
+#define MAX_FILENAME_LENGTH 63
+#define MAX_NOTE_PER_BARLINE 127
+#define MIN_SUBDIV_SPACING 5
 
 // Project-specific variables:
 char title[MAX_PAGETEXT_LENGTH] = "My Score";
@@ -291,6 +291,7 @@ struct tab
 	int frontierSS;
 	int frontierPage;
 	double playHeadPosition;
+    double playHeadSpeed;
 	int playHeadPage;
 	int playHeadSS;
 	page* pagePtr[MAX_PAGES];

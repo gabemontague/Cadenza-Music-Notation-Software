@@ -1533,6 +1533,7 @@ void NewTab( typeEnum tType )
 	tabPtr[currentTab]->viewY = -pagePadding - tabBarHeight;
 	tabPtr[currentTab]->viewZoom = 1;
 	tabPtr[currentTab]->playHeadPosition = 0;
+    tabPtr[currentTab]->playHeadSpeed = 0.01f;
 	tabPtr[currentTab]->numGestures = 0;
 	for( int a = 0; a < MAX_GESTURES; a++ ) tabPtr[currentTab]->gesturePtr[a] = NULL;
 	for( int a = 0; a < MAX_TABS; a++ ) tabPtr[currentTab]->pagePtr[a] = NULL;
@@ -2352,18 +2353,11 @@ void MainShortcutsControl( void )
 	// Home
 	if( agk::GetRawKeyPressed( 36 ) )
 	{
-		tbPtr->playHeadPosition = 0;
+		tbPtr->playHeadPosition = 0.001f;
 	}
-	// Page up
-	if( agk::GetRawKeyPressed( 33 ) )
+	// Page up NOW up
+	if( agk::GetRawKeyPressed( /*33*/ 38 ) )
 	{
-		if( !( tbPtr->playHeadPage == 0 && tbPtr->playHeadSS == 0 ) )
-		{
-			int placeHolder = ac;
-			int globalSS = ConvertLocalSSToGlobal( tbPtr->playHeadPage, tbPtr->playHeadSS ) - 1;
-			ACConvert( placeHolder, globalSS );
-			tbPtr->playHeadPosition = ssPtr( returnPage, returnSS )->timeStart;
-		}
 		if( agk::GetRawKeyState( 17 ) )
 		{
 			if( tbPtr->pageView == DOUBLE_COLUMN ) tbPtr->pageView = SPREAD;
@@ -2375,17 +2369,18 @@ void MainShortcutsControl( void )
 			ArrangePages();
 			ViewControlLimitView();
 		}
-	}
-	// Page down
-	if( agk::GetRawKeyPressed( 34 ) )
-	{
-		if( !( tbPtr->playHeadPage == tbPtr->numPages - 1 && tbPtr->playHeadSS > pgPtr( tbPtr->numPages - 1 )->numStaffSystems - 2 ) )
+        else if( !( tbPtr->playHeadPage == 0 && tbPtr->playHeadSS == 0 ) )
 		{
 			int placeHolder = ac;
-			int globalSS = ConvertLocalSSToGlobal( tbPtr->playHeadPage, tbPtr->playHeadSS ) + 1;
+			int globalSS = ConvertLocalSSToGlobal( tbPtr->playHeadPage, tbPtr->playHeadSS ) - 1;
 			ACConvert( placeHolder, globalSS );
-			tbPtr->playHeadPosition = ssPtr( returnPage, returnSS )->timeStart;
+			tbPtr->playHeadPosition = ssPtr( returnPage, returnSS )->timeStart + 0.001f;
+            UpdatePlayHead( tbPtr->playHeadPosition );
 		}
+	}
+	// Page down NOW down
+	if( agk::GetRawKeyPressed( /*34*/ 40 ) )
+	{
 		if( agk::GetRawKeyState( 17 ) )
 		{
 			if( tbPtr->pageView == SPREAD ) tbPtr->pageView = DOUBLE_COLUMN;
@@ -2397,6 +2392,26 @@ void MainShortcutsControl( void )
 			ArrangePages();
 			ViewControlLimitView();
 		}
+        else if( !( tbPtr->playHeadPage == tbPtr->numPages - 1 && tbPtr->playHeadSS > pgPtr( tbPtr->numPages - 1 )->numStaffSystems - 2 ) )
+		{
+			int placeHolder = ac;
+			int globalSS = ConvertLocalSSToGlobal( tbPtr->playHeadPage, tbPtr->playHeadSS ) + 1;
+			ACConvert( placeHolder, globalSS );
+			tbPtr->playHeadPosition = ssPtr( returnPage, returnSS )->timeStart + 0.001f;
+            UpdatePlayHead( tbPtr->playHeadPosition );
+		}
+	}
+    // Space bar
+	if( agk::GetRawKeyPressed( 32 ) )
+	{
+        if( currentTab[tabPtr]->playHeadSpeed == 0 )
+        {
+            currentTab[tabPtr]->playHeadSpeed = 0.01f; // DEVELOPE MORE: get rid of literal in future.
+        }
+        else
+        {
+            currentTab[tabPtr]->playHeadSpeed = 0;
+        }
 	}
 }
 void AppForceExit ( void );
@@ -2431,7 +2446,7 @@ void app::Loop ( void )
 			{
 				ViewControl();
 				UpdatePlayHead( tbPtr->playHeadPosition );
-				tbPtr->playHeadPosition += 0.01;
+				tbPtr->playHeadPosition += tbPtr->playHeadSpeed;
 				DrawOnPage();
 				MainShortcutsControl();
 			}
