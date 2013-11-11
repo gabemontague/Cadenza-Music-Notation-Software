@@ -1629,7 +1629,10 @@ void HideTabContent( int tabNum )
 }
 void ShowTabContent( int tabNum )
 {
-	tab* target = tabPtr[tabNum];
+    tab* target = tabPtr[tabNum];
+    
+    if(target == NULL) return; // This shouldn't happen.
+    if( tabNum == -1 ) return; // This shouldn't happen.
 	
 	int tempCurrentTab = currentTab;
 	currentTab = tabNum;
@@ -2074,7 +2077,6 @@ void MainCreateNew( void )
 	NewTab( MUSIC_FULL );
 	NewTab( MUSIC_FULL );
 	NewTab( TEXT );
-	NewTab( TEXT );
 	SwitchTab( 0 );
 	
 	// Construct a sample document using code
@@ -2082,6 +2084,9 @@ void MainCreateNew( void )
 	
 	NewStave( ac, ss );
 	NewStave( ac, ss );
+    NewBarLineSplitStaffSystemPercent( ac, ss, 25 );
+    NewBarLineSplitStaffSystemPercent( ac, ss, 50 );
+    NewBarLineSplitStaffSystemPercent( ac, ss, 75 );
 	
 	ss++;
 	NewStave( ac, ss );

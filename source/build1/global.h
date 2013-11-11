@@ -69,7 +69,7 @@ const float lineSpacing = 8; // The space between the lines
 const float staveHeight = 4 * lineSpacing; // The height of the stave
 
 const float barOffset = 16; // The space between a barline and the first note
-const bool showSubBarLines = false;
+const bool showSubBarLines = true;
 
 const float noteSize = 0.4f; // Scale value, not absolute
 
