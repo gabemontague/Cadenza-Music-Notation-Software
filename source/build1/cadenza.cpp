@@ -1828,6 +1828,7 @@ void RecognizeGesture( void )
 	}
     
     // Is approximately the size of a bar line?
+    if(returnPage == -1 || returnSS == -1) return;
     const float nearestSSHeight = ssPtr( returnPage, returnSS )->height;
     if( gsPtrActive->width < 32 && gsPtrActive->height > nearestSSHeight - 10 && gsPtrActive->height < nearestSSHeight + 32 )
     {
