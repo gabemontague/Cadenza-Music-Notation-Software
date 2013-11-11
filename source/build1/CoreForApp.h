@@ -1,6 +1,9 @@
 #ifndef _H_COREFORAPP
 #define _H_COREFORAPP
 
+#define WIDTH 1024
+#define HEIGHT 768
+
 // interpreter header
 #include "cadenza.h"
 
@@ -11,8 +14,8 @@ extern QApplication* g_appptr;
 
 int AppInitCode ( void )
 {
-	App.m_DeviceWidth = 1024;
-	App.m_DeviceHeight = 768;
+	App.m_DeviceWidth = WIDTH;
+	App.m_DeviceHeight = HEIGHT;
 	return 1;
 }
 

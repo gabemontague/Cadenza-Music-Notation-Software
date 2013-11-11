@@ -565,14 +565,15 @@ void NewBarLineSplitMeasure( int pageNum, int ssNum, float xPos, double timeFrom
 }
 void NewBarLineSplitMeasurePercent( int pageNum, int ssNum, int measureNum, float percent, double timeFromLast )
 {
+    // DEVELOP MORE: This assumes that the first 2 arguments are ac
 	ConvertGlobalMeasureToLocal( measureNum );
 	int barLineNum = returnBarLine;
 	pageNum = returnPage;
 	ssNum = returnSS;
 	ConvertGlobalMeasureToLocal( measureNum + 1 );
 	int nextBarLineNum = returnBarLine; // Holds next measure barLine, not
-	if( nextBarLineNum != 0 ) nextBarLineNum--;
-	
+	//if( nextBarLineNum != 0 ) nextBarLineNum--;
+
 	float xPos;
 
 	staffSystem* ssTarget = ssPtr( pageNum, ssNum );
@@ -583,7 +584,7 @@ void NewBarLineSplitMeasurePercent( int pageNum, int ssNum, int measureNum, floa
 	barLine* nextTarget = blPtr( pageNum, ssNum, nextBarLineNum );
 	
 	xPos = target->x + ( nextTarget->x - target->x ) * percent / 100;
-	
+    
 	NewBarLineSplitMeasure( pageNum, ssNum, xPos, timeFromLast );
 }
 void MoveBarLine( int pageNum, int ssNum, int barLineNum, float xPos )
@@ -676,7 +677,6 @@ void DeleteBarLine( int pageNum, int ssNum, int barLineNum )
 	}
 	else Error( @"Error in function DeleteBarLine: barLine pointer is blank!" );
 }
-
 // STAVE
 void NewStave( int pageNum, int ssNum )
 {
@@ -2024,7 +2024,8 @@ int ConvertGlobalMeasureToLocal( int measureNumGlobal )
 					{
 						returnPage = a;
 						returnSS = b;
-						if( tbPtr->pagePtr[a]->staffSystemPtr[b]->barLinePtr[c]->barLineMode == BAR ) returnBarLine = c + 1;
+						if( tbPtr->pagePtr[a]->staffSystemPtr[b]->barLinePtr[c]->barLineMode == BAR ||
+                           tbPtr->pagePtr[a]->staffSystemPtr[b]->barLinePtr[c]->barLineMode == SS_BEGIN ) returnBarLine = c;
 						else returnBarLine = c;
 						return a;
 						break;
@@ -2089,7 +2090,7 @@ void MainCreateNew( void )
     NewBarLineSplitStaffSystemPercent( ac, ss, 25 );
     NewBarLineSplitStaffSystemPercent( ac, ss, 50 );
     NewBarLineSplitStaffSystemPercent( ac, ss, 75 );
-	
+    
 	ss++;
 	NewStave( ac, ss );
 	NewStave( ac, ss );
@@ -2120,6 +2121,8 @@ void MainCreateNew( void )
 	NewStave( ac, ss );
 
 	ArrangeStaffSystems( 0,  0 );
+    
+    NewBarLineSplitMeasurePercent( 0, 0, 0, 50.0f, 0.5 );
 }
 void ViewControl( void )
 {
@@ -2406,7 +2409,7 @@ void MainShortcutsControl( void )
 	{
         if( currentTab[tabPtr]->playHeadSpeed == 0 )
         {
-            currentTab[tabPtr]->playHeadSpeed = 0.01f; // DEVELOPE MORE: get rid of literal in future.
+            currentTab[tabPtr]->playHeadSpeed = 0.01f; // DEVELOP MORE: get rid of literal in future.
         }
         else
         {
