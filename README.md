@@ -42,29 +42,32 @@ To create a simple chord progression split between two staves, the following cod
 // automatically generated.
 NewTab( MUSIC_FULL );
 
-// Add a new stave to the first staff system on the page. In the future we would specify
-// the instrument too.
+// Add a new stave to the first staff system on the page. In the future we would
+// specify the instrument too.
 // Format: NewStave(int pageNum, int staffSystemNum)
 NewStave(ac, 0);
-                // Passing the constant 'ac' tells Cadenza to find the first staff system in
-                // the entire score, whereas calling NewStave(0, 0) would act upon the first
-                // system of the first page. 'ac' (Auto-calculate) can be used for any 
-                // rendering function.
+                // Passing the constant 'ac' tells Cadenza to find the first staff
+                // system in the entire score, whereas calling NewStave(0, 0)
+                // would act upon the first system of the first page. 'ac' (Auto-
+                // calculate) can be used for any rendering function.
 
 
-// Auto-arrange our staff-systems to look nice, starting on the first staff system (0) of
-// the first page (0)
+// Auto-arrange our staff-systems to look nice, starting on the first staff system (0)
+// of the first page (0)
 ArrangeStaffSystems(0, 0);
 
 // Split our staff system up into 4 measures by placing 3 barlines.
-// Format:NewBarLineSplitStaffSystemPercent(int pageNum, int staffSystemNum, float percentOfWidth)
+// Format: NewBarLineSplitStaffSystemPercent(int pageNum, int staffSystemNum,
+//                                           float percentOfWidth)
 NewBarLineSplitStaffSystemPercent(ac, 0, 25.0f);
 NewBarLineSplitStaffSystemPercent(ac, 0, 50.0f);
 NewBarLineSplitStaffSystemPercent(ac, 0, 75.0f);
 
-// Subbarlines break up measures into segments of time. Add 4 subbarlines (4 beats) to measure 1.
-// Format: NewBarLineSplitMeasurePercent(int pageNum, int staffSystemNum, int measureNum,
-                                      // float percentOfWidth, double timeInterval)
+// Subbarlines break up measures into segments of time. Add 4 subbarlines
+// (4 beats) to measure 1.
+// Format: NewBarLineSplitMeasurePercent(int pageNum, int staffSystemNum,
+//                                       int measureNum, float percentOfWidth,
+//                                       double timeInterval)
 NewBarLineSplitMeasurePercent(ac, ac, 0, 20.0f, 0); // At the first beat no time has passed
 NewBarLineSplitMeasurePercent(ac, ac, 0, 40.0f, 0.25); // 0.25 is a 1/4 note
 NewBarLineSplitMeasurePercent(ac, ac, 0, 60.0f, 0.25);
