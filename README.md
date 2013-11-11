@@ -68,43 +68,42 @@ NewBarLineSplitStaffSystemPercent(ac, 0, 50.0f);
 NewBarLineSplitStaffSystemPercent(ac, 0, 75.0f);
 
 // Subbarlines break up measures into segments of time. Add 4 subbarlines
-// (4 beats) to measure 1.
+// (4 beats) to measure 2.
 // Format: NewBarLineSplitMeasurePercent(int pageNum, int staffSystemNum,
 //                                       int measureNum, float percentOfWidth,
 //                                       double timeInterval)
 
-NewBarLineSplitMeasurePercent(ac, ac, 0, 20.0f, 0); // 1st beat: no time has passed
-NewBarLineSplitMeasurePercent(ac, ac, 0, 40.0f, 0.25); // 0.25 is a 1/4 note
-NewBarLineSplitMeasurePercent(ac, ac, 0, 60.0f, 0.25);
-NewBarLineSplitMeasurePercent(ac, ac, 0, 80.0f, 0.25);
+NewBarLineSplitMeasurePercent(ac, ac, 1, 20.0f, 0); // 1st beat: no time has passed
+NewBarLineSplitMeasurePercent(ac, ac, 1, 40.0f, 0.25); // 0.25 is a 1/4 note
+NewBarLineSplitMeasurePercent(ac, ac, 1, 60.0f, 0.25);
+NewBarLineSplitMeasurePercent(ac, ac, 1, 80.0f, 0.25);
 
 // Finally, add some notes to our four beats
 // Format: NewNote( int pageNum, int staffSystemNum, int subbarLineNum, int staveNum,
 //                  noteLetterEnum letter, char octaveNum, noteAccidentalEnum
 //                  accidentalName )
 
-NewNote(ac, ac, 0, 0, nC, 4, naNone); // Adds note C4 to the 1st barline of
-                                      // the upper stave
-NewNote(ac, ac, 0, 0, nE, 3, naNone);
-NewNote(ac, ac, 0, 0, nG, 3, naNone); // We have a 1st-inversion C-chord in
+NewNote(ac, ac, 2, 0, nC, 3, naNONE); // Adds note C3 to the upper stave
+NewNote(ac, ac, 2, 0, nE, 2, naNONE);
+NewNote(ac, ac, 2, 0, nG, 2, naNONE); // We have a 1st-inversion C-chord in
                                       // our right hand!
 
-NewNote(ac, ac, 0, 1, nC, 3, naNone); // Adds the bass note C3 to the the
+NewNote(ac, ac, 2, 1, nC, 2, naNONE); // Adds the bass note C2 to the the
                                       // lower stave
 
 // Now let's do the three other beats...
-NewNote(ac, ac, 1, 0, nC, 4, naNone);
-NewNote(ac, ac, 1, 0, nA, 3, naNone);
-NewNote(ac, ac, 1, 0, nF, 3, naNone);
-NewNote(ac, ac, 1, 1, nC, 3, naNone); // An F chord
+NewNote(ac, ac, 3, 0, nC, 3, naNONE);
+NewNote(ac, ac, 3, 0, nA, 2, naNONE);
+NewNote(ac, ac, 3, 0, nF, 2, naNONE);
+NewNote(ac, ac, 3, 1, nC, 2, naNONE); // An F chord
 
-NewNote(ac, ac, 2, 0, nB, 3, naNone);
-NewNote(ac, ac, 2, 0, nG, 3, naNone);
-NewNote(ac, ac, 2, 0, nF, 3, naNone);
-NewNote(ac, ac, 2, 1, nD, 3, naNone); // A G7 chord
+NewNote(ac, ac, 4, 0, nB, 2, naNONE);
+NewNote(ac, ac, 4, 0, nG, 2, naNONE);
+NewNote(ac, ac, 4, 0, nF, 2, naNONE);
+NewNote(ac, ac, 4, 1, nD, 2, naNONE); // A G7 chord
 
-NewNote(ac, ac, 3, 0, nC, 4, naNone);
-NewNote(ac, ac, 3, 0, nG, 3, naNone);
-NewNote(ac, ac, 3, 0, nE, 3, naNone);
-NewNote(ac, ac, 3, 1, nC, 3, naNone); // Another C chord
+NewNote(ac, ac, 5, 0, nC, 3, naNONE);
+NewNote(ac, ac, 5, 0, nG, 2, naNONE);
+NewNote(ac, ac, 5, 0, nE, 2, naNONE);
+NewNote(ac, ac, 5, 1, nC, 2, naNONE); // Another C chord
 ```
