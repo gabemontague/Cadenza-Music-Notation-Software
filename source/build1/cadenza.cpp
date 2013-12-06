@@ -10,6 +10,22 @@ app App;
 #include "global.h"
 
 // UTILITY
+void LoadSounds( void )
+{
+    sndTick = agk::LoadSound( "drip.wav" );
+    sndNote[0] = agk::LoadSound("C4.wav" );
+    sndNote[1] = agk::LoadSound("D4.wav" );
+    sndNote[2] = agk::LoadSound("E4.wav" );
+    sndNote[3] = agk::LoadSound("F4.wav" );
+    sndNote[4] = agk::LoadSound("G4.wav" );
+    sndNote[5] = agk::LoadSound("A4.wav" );
+    sndNote[6] = agk::LoadSound("B4.wav" );
+    sndNote[7] = agk::LoadSound("C5.wav" );
+    sndNote[8] = agk::LoadSound("D5.wav" );
+    sndNote[9] = agk::LoadSound("E5.wav" );
+    sndNote[10] = agk::LoadSound("F5.wav" );
+    sndNote[11] = agk::LoadSound("G5.wav" );
+}
 void LoadImagesSprites( void )
 {
 	// Preload images
@@ -67,6 +83,8 @@ void Error( NSString* string )
 	
 	if( exitOnError ) exit( 0 );
 }
+unsigned int sound[512] = {0};
+unsigned int numPlaying = 0;
 void UpdatePlayHead( double timeTarget )
 {
 	// Cycle through pages
@@ -98,6 +116,44 @@ void UpdatePlayHead( double timeTarget )
 						agk::SetSpriteScale( playHeadID, 1, target->height );
 						agk::SetSpriteColor( playHeadID, 204, 0, 204, 255 );
 						
+                        // Play a note
+                        if(percentage <= tabPtr[currentTab]->playHeadSpeed)
+                        {
+                            // Check if there is a note to play
+                            if(target->barLinePtr[c-1]->numNotes > 0)
+                            {
+                                // There is. Stop previous sounds.
+                                if(numPlaying > 0)
+                                {
+                                    for (int ii = 0; ii < numPlaying; ii++ )
+                                    {
+                                        agk::StopSound(sound[ii]);
+                                    }
+                                    numPlaying = 0;
+                                }
+                                
+                                // Add new sounds
+                                for (int d = 0; d < target->barLinePtr[c-1]->numNotes; d++)
+                                {
+                                    note * currentNote = target->barLinePtr[c-1]->notePtr[d];
+                                    if(currentNote->pitchLetter == 21) sound[numPlaying] = sndNote[0];
+                                    if(currentNote->pitchLetter == 22) sound[numPlaying] = sndNote[1];
+                                    if(currentNote->pitchLetter == 23) sound[numPlaying] = sndNote[2];
+                                    if(currentNote->pitchLetter == 24) sound[numPlaying] = sndNote[3];
+                                    if(currentNote->pitchLetter == 25) sound[numPlaying] = sndNote[4];
+                                    if(currentNote->pitchLetter == 26) sound[numPlaying] = sndNote[5];
+                                    if(currentNote->pitchLetter == 27) sound[numPlaying] = sndNote[6];
+                                    if(currentNote->pitchLetter == 28) sound[numPlaying] = sndNote[7];
+                                    if(currentNote->pitchLetter == 29) sound[numPlaying] = sndNote[8];
+                                    if(currentNote->pitchLetter == 30) sound[numPlaying] = sndNote[9];
+                                    if(currentNote->pitchLetter == 31) sound[numPlaying] = sndNote[10];
+                                    if(currentNote->pitchLetter == 32) sound[numPlaying] = sndNote[11];
+                                    agk::PlaySound(sound[numPlaying]);
+                                    numPlaying++;
+                                }
+                            }
+                        }
+                        
 						break;
 					}
 				}
@@ -140,7 +196,7 @@ void NewNote( int pageNum, int ssNum, int barLineNum, int staveNum, noteLetterEn
 	target->pitchLetter = target->octave * 7 + target->letterName;
 	target->x = target->parentPtr->x - target->size / 0.4f * 5;
 	target->noteHeadType = SOLID;
-	target->clef = BASS;
+	target->clef = TREBLE;
 	target->y = target->parentStavePtr->y + CalculateNoteRelativePositionY( target->clef, target->pitchLetter, target->size, target->noteHeadType );
 	
 	// Create image
@@ -1533,7 +1589,7 @@ void NewTab( typeEnum tType )
 	tabPtr[currentTab]->viewY = -pagePadding - tabBarHeight;
 	tabPtr[currentTab]->viewZoom = 1;
 	tabPtr[currentTab]->playHeadPosition = 0;
-    tabPtr[currentTab]->playHeadSpeed = 0.01f;
+    tabPtr[currentTab]->playHeadSpeed = 0.00f;
 	tabPtr[currentTab]->numGestures = 0;
 	for( int a = 0; a < MAX_GESTURES; a++ ) tabPtr[currentTab]->gesturePtr[a] = NULL;
 	for( int a = 0; a < MAX_TABS; a++ ) tabPtr[currentTab]->pagePtr[a] = NULL;
@@ -1567,7 +1623,7 @@ void NewTab( typeEnum tType )
 			agk::SetEditBoxCursorColor( tabPtr[currentTab]->ebID, 0, 0, 0 );
 			agk::SetEditBoxMultiLine( tabPtr[currentTab]->ebID, true );
 			agk::SetEditBoxTextSize( tabPtr[currentTab]->ebID, 24 );
-			agk::SetEditBoxFontImage( tabPtr[currentTab]->ebID, fontCentury );
+			//agk::SetEditBoxFontImage( tabPtr[currentTab]->ebID, fontCentury );
 		}
 		default:
 			break;
@@ -1794,7 +1850,7 @@ void RecognizeGesture( void )
 	
 	// Is approximately the size of a notehead?
 	if( gsPtrActive->width > lineSpacing * 0.35f && gsPtrActive->height > lineSpacing * 0.66f &&
-	   gsPtrActive->width < lineSpacing * 2.5f && gsPtrActive->height < lineSpacing * 2.5f )
+	   gsPtrActive->width < lineSpacing * 2.7f && gsPtrActive->height < lineSpacing * 2.7f )
 	{
         // NOTE that the below code makes use of returnX, which is the nearest instance of X
 		// Is this notehead lined up with a valid staff system?
@@ -2089,24 +2145,14 @@ void MainCreateNew( void )
 	
 	NewStave( ac, ss );
 	NewStave( ac, ss );
-    NewBarLineSplitStaffSystemPercent( ac, ss, 25 );
-    NewBarLineSplitStaffSystemPercent( ac, ss, 50 );
-    NewBarLineSplitStaffSystemPercent( ac, ss, 75 );
     
 	ss++;
 	NewStave( ac, ss );
 	NewStave( ac, ss );
-	NewBarLineSplitStaffSystemPercent( ac, ss, 20 );
-	NewBarLineSplitStaffSystemPercent( ac, ss, 40 );
-	NewBarLineSplitStaffSystemPercent( ac, ss, 60 );
-	NewBarLineSplitStaffSystemPercent( ac, ss, 85 );
 	
 	ss++;
 	NewStave( ac, ss );
 	NewStave( ac, ss );
-	NewBarLineSplitStaffSystemPercent( ac, ss, 25 );
-	NewBarLineSplitStaffSystemPercent( ac, ss, 50 );
-	NewBarLineSplitStaffSystemPercent( ac, ss, 75 );
 	
 	ss++;
 	NewStave( ac, ss );
@@ -2416,6 +2462,16 @@ void MainShortcutsControl( void )
         else
         {
             currentTab[tabPtr]->playHeadSpeed = 0;
+            
+            // There is. Stop previous sounds.
+            if(numPlaying > 0)
+            {
+                for (int ii = 0; ii < numPlaying; ii++ )
+                {
+                    agk::StopSound(sound[ii]);
+                }
+                numPlaying = 0;
+            }
         }
 	}
 }
@@ -2430,6 +2486,7 @@ void app::Begin( void )
 	agk::SetViewZoomMode( 1 );
     
 	LoadImagesSprites();
+    LoadSounds();
 	
 	// Set up tabs
 	int tabBar = agk::CloneSprite( sprTabBG );

@@ -69,7 +69,7 @@ const float lineSpacing = 8; // The space between the lines
 const float staveHeight = 4 * lineSpacing; // The height of the stave
 
 const float barOffset = 16; // The space between a barline and the first note
-const bool showSubBarLines = true;
+const bool showSubBarLines = false;
 
 const float noteSize = 0.4f; // Scale value, not absolute
 
@@ -96,6 +96,10 @@ unsigned int sprNoteHeadWhole;
 unsigned int sprNoteHeadDoubleWhole;
 unsigned int sprDraw;
 unsigned int sprDrawPivot;
+
+// Sound templates
+unsigned int sndTick;
+unsigned int sndNote[12];
 
 // Misc
 enum clefEnum { TREBLE, BASS, ALTO, TENOR, TREBLE_SUB, TREBLE_SUPER, BASS_SUB, BASS_SUPER, FRENCH_VIOLIN, BARITONE_C, MEZZO_SOPRANO, SOPRANO, BARITONE_F };
